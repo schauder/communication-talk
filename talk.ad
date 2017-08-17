@@ -1,0 +1,186 @@
+= Kommunikation nicht nur für Software Entwickler
+
+== Disclaimer
+
+=== Ich bin Experte
+
+[NOTE.speaker]
+Erfahrung mit erfolgreicher und vor allem nicht so erfolgreicher Kommunikation seit mehr als 45 Jahren.
+
+=== aber nicht qualifiziert
+
+Kein Abschluss, keine besonderen Erfolge
+
+== Die echten Probleme sind Probleme mit Personen, nicht mit Technik
+
+=== Projekt mit minimalem Aufwand
+
+Ein Entwickler
+
+=== Aber so viel Zeit haben wir meist nicht
+
+Wir arbeiten in Teams
+
+=== Konflikte
+
+=== Die tun nicht was ich will
+
+Oder was sie sollen.
+
+== Menschen sind nicht rational
+
+=== Home economoicus
+
+BWL: Der Mensch ist rational und allwissend.
+
+=== Rocket Science
+
+You want to catch up with a vehicle in the same orbit as you are, what do you do?
+
+* Vorwärts Schub
+* Rückwärts Schub
+* Scott Manley fragen https://www.youtube.com/watch?v=AHkY3FusJIQ
+
+=== Kreisel
+
+Wenn man einen Kreisel versucht zu kippen, kippt er in eine andere Richtung als die Kraft wirkt.
+
+=== Es ist alles noch viel schlimmer.
+
+In welche Richtung dreht sich der Kreisel?
+
+
+== Genug hinkende Metaphern
+
+=== Technologie Entscheidung
+
+=== Spring MVC vs JSF
+
+=== Pro MVC
+
+* Die Entwickler kennen die Technik.
+
+* Erhebliche Mengen Code schon vorhanden, da die Entscheidung viele Monate dauerte.
+
+* Erfüllt alle benannten Anforderungen.
+
+* Erfüllt weitere Anforderungen, die hartnäckig ignoriert werden.
+
+=== Pro JSF
+
+* War bis vor einem Jahr Standard, bis massive Probleme in Projekten zur Aufhebung des Standardas geführt haben.
+
+* Oh ...
+
+=== Entscheidung durch PL
+
+JSF
+
+=== Aus Sicht des PL
+
+* Wenn ich mich für was anderes als JSF entscheide, kann ich dafür verantwortlich gemacht werden.
+
+=== Meeting
+
+=== Person 1
+
+* Hervorragendes Meeting
+* Ich habe sie total auf unsere Zeite gezogen.
+* Es ist alles Bestens.
+
+=== Person 2
+
+* Ein Katastrophe.
+* P2 hat uns sich und uns total blamiert.
+* Da müssen wir uns nicht mehr blicken lassen.
+
+=== Häh?
+
+Alles wird von jedem im Licht seiner persönlichen Erfahrung gesehen.
+Daher kann ein und derselbe Reiz zu völlig unterschiedlichen Reaktionen führen.
+
+=== Übung für zu Hause
+
+* Wann reagieren Personen völlig anders (als ihr oder jemand drittes)
+* Was könnten die Gründe dafür sein?
+
+=== Im Job
+
+* Ihr wollt ein Thema besprechen, vielleicht einen Vorschlag machen
+* überlegt vorher wenigstens drei Varianten, wie der Gesprächspartner darauf reagieren könnte.
+
+=== Jetzt
+
+* Stellt euch kurz eurem Nachbarn vor.
+* erzählt kurz eine Anekdoten von 2 Personen, die auf die gleiche/ähnliche Situation völlig unterschiedlich reagiert haben.
+
+== Also ist raten die Lösung?
+
+=== Let me think about that
+
+... Nope!
+
+=== Fragen!
+
+=== Fragen um zu verstehen!
+
+=== NICHT um zu antworten!
+
+
+Know your sphere of influence
+Increase your sphere of influence
+
+You are making decisions. If others force you to do stuff, all they do is limit options until you favor the option they want.
+
+Plan for the worst, but don't bitch about it.
+
+Try to really understand. Understanding and empathy ist the coinage of communication.
+
+Be nice.
+
+Practicing is difficult, because git reset --hard is broken.
+
+Peinlichkeiten nimmt man selbst mehr war als alle anderen. Relax.
+
+Wenn du selbst ertrinkst, kannst du keinem anderen helfen.
+
+Learn from everybody. I hate soldiers. It is sickening to me that there are people that choose to get them self trained to kill people.
+BUT: I look up to SEALs for what they accomplish and the life ethics they bring forward.
+
+When you find out that you can't do what you set out to do. You can
+
+* sit in a corner, feel sorry about yourself and binge watch youtube
+
+* or you can take a deep breath and find out WHAT YOU CAN DO to change the world into one you like to live in more than the current one.
+
+== More Stuff
+
+Levels of Delegation
+
+Me Messages
+
+== Resources
+
+Chris Hadfield
+
+Just listen
+
+Difficult conversations
+
+Thinking fast and slow
+
+Jens Corssen https://www.amazon.de/Als-Selbst-Entwickler-privatem-beruflichem-Erfolg/dp/3000153845/ref=la_B00458JFKE_1_2?s=books&ie=UTF8&qid=1493627462&sr=1-2
+
+https://www.nytimes.com/2017/04/25/opinion/wrestling-explains-alex-jones-and-donald-trump.html?_r=0
+
+http://www.talentsmart.com/articles/How-Emotionally-Intelligent-People-Handle-Toxic-People-1028629190-p-1.html
+
+http://theoatmeal.com/comics/believe
+
+https://www.youtube.com/watch?v=eiTf0_3-71w
+
+Living with a SEAL
+
+https://gist.github.com/schauder/58e317346ac76590c6c29cefd36b2c29
+
+http://inews.co.uk/opinion/comment/i-deal-nasty-comments-online/
