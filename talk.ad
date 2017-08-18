@@ -44,7 +44,13 @@ Menschen sind zustandsbehaftet.
 Und das in einem massiv parallelen Kontext.
 
 Muss ja schief gehen.
+
+git reset --hard funktioniert leider auch nicht.
 ----
+
+==!
+
+https://twitter.com/benjiweber/status/888009994356097025
 
 == Das klassische Model
 
@@ -248,9 +254,30 @@ Habt ihr die Entscheidung mit ganzer Energie verfolgt?
 Jens Corssen https://www.amazon.de/Als-Selbst-Entwickler-privatem-beruflichem-Erfolg/dp/3000153845/ref=la_B00458JFKE_1_2?s=books&ie=UTF8&qid=1493627462&sr=1-2
 
 == Plant die Katastrophen
+<link shortcut>
 
-<link skip>
-TODO
+// Mushroom cloud
+
+[NOTE.speaker]
+----
+Aktiv zu werden macht Angst.
+
+Überlegt euch die schlimmsten Dinge, vor denen ihr Angst habt.
+Bewertet welche davon realistisch sind.
+Überlegt was ihr tun könnt um diese Ereignisse zu vermeiden
+Was könnt ihr tun, um den Schaden zu minimieren.
+
+Was kostet es euch wenn ihr passiv bleibt.
+----
+
+=== Nur wer fest steht kann andere bewegen
+
+=== Resourcen
+
+Commander Hadfield
+
+Why you should define your fears instead of your goals | Tim Ferriss
+https://www.youtube.com/watch?v=5J6jAC6XxAI
 
 == Psychologie
 
@@ -362,6 +389,8 @@ Vermeidet "Warum". "Warum" klingt wie eine Aufforderung zur Rechtfertigung.
 
 Fragt nicht um den Gegnüber auf euer Ziel hinzuweisen.
 Hört nicht zu um zu antworten.
+
+Man vergleiche das mit dem Feedback Sandwich.
 ----
 
 == Fragt und hört zu, um zu verstehen
@@ -371,7 +400,29 @@ Hört nicht zu um zu antworten.
 Der interessiert sich für mich (positiv)
 ----
 
-==!
+== Wiederholt was ihr verstanden habt
+
+[NOTE.speaker]
+----
+Er versteht mich!
+
+Oder, nein, so habe ich das nicht gemeint
+----
+
+== Benennt die Emotionen
+
+[quote]
+----
+Du bist total wütend, oder?
+----
+
+
+[NOTE.speaker]
+----
+Er versteht mich!
+----
+
+===!
 
 // Waage mit + und - Zeichen
 
@@ -381,219 +432,57 @@ Die Psyche ist wie eine Waagschale, die positive mit negativen Erfahrungen vergl
 Negative sind ungefähr 5x so schwer wie positive
 ----
 
-
-#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-==Material
-
-#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-
-
-== Die echten Probleme sind Probleme mit Personen, nicht mit Technik
-
-=== Wir arbeiten in Teams
-
-=== => Konflikte!
-
-=== Die tun nicht was ich will
-
-=== Oder was sie sollen.
-
-=== Die zieht sich falsch an!
-
-=== Der kommt immer so spät.
-
-=== Tabs vs Spaces!
-
-== Lösungsstrategien
-
-=== Flucht
-
-[NOTE.speaker]
-Ich kündige und suche mir einen anderen Job.
-
-Scheidung.
-
-Wegziehen.
-
-Aber auch: Ok, wir machen das so wie du willst.
-
-=== Angriff
-
-[NOTE.speaker]
-Körperliche Gewalt. Mobbing. Denn Schnee in die Einfahrt des Nachbarn schieben.
-
-Aber auch: Schreien, Beschimpfen, mit Rethorisch zu nichte machen.
-
-=== Tot stellen
-
-[NOTE.speaker]
-Dienst nach Vorschrift. Unauffällig verhalten
-
-=== Keine dieser Strategien löst das Problem
-
-=== Kommunikation!
-
-== Menschen sind nicht rational
-
-=== Home economoicus
-
-BWL: Der Mensch ist rational und allwissend.
-
-=== Rocket Science
-
-Wie holt man einen Sateliten ein, der vor einem in einem Kreis Orbit fliegt?
-
-* Vorwärts Schub
-* Rückwärts Schub
-* Scott Manley fragen https://www.youtube.com/watch?v=AHkY3FusJIQ
-
-[NOTE.speaker]
-Rückwärts Schub. Man sinkt auf ein niedrigeres Orbit. Dort hat man eine höhere Winkelgeschwindigkeit und holt auf.
-
-=== Kreisel
-
-[NOTE.speaker]
-Wenn man einen Kreisel versucht zu kippen, kippt er in eine andere Richtung als die Kraft wirkt.
-
-=== Es ist alles noch viel schlimmer.
-
-In welche Richtung dreht sich der Kreisel?
-
-== Genug hinkende Metaphern
-
-=== Technologie Entscheidung
-
-=== Spring MVC vs JSF
-
-=== Pro MVC
-
-* Die Entwickler kennen die Technik.
-
-* Erhebliche Mengen Code schon vorhanden, da die Entscheidung viele Monate dauerte.
-
-* Erfüllt alle benannten Anforderungen.
-
-* Erfüllt weitere Anforderungen, die hartnäckig ignoriert werden.
-
-=== Pro JSF
-
-* War bis vor einem Jahr Standard, bis massive Probleme in Projekten zur Aufhebung des Standardas geführt haben.
-
-* ... Oh.
-
-=== Entscheidung durch PL
-
-JSF
-
-=== Aus Sicht des PL
-
-* Wenn ich mich für was anderes als JSF entscheide, kann ich dafür verantwortlich gemacht werden.
-
-=== Meeting
-
-=== Person 1
-
-* Hervorragendes Meeting
-* Ich habe sie total auf unsere Zeite gezogen.
-* Es ist alles Bestens.
-
-=== Person 2
-
-* Ein Katastrophe.
-* P2 hat uns sich und uns total blamiert.
-* Da müssen wir uns nicht mehr blicken lassen.
-
-=== Häh?
-
-Alles wird von jedem im Licht seiner persönlichen Erfahrung gesehen.
-Daher kann ein und derselbe Reiz zu völlig unterschiedlichen Reaktionen führen.
-
-=== Übung für zu Hause
-
-* Wann reagieren Personen völlig anders (als ihr oder jemand drittes)
-* Was könnten die Gründe dafür sein?
-
-=== Übung im Job
-
-* Ihr wollt ein Thema besprechen, vielleicht einen Vorschlag machen
-* überlegt vorher wenigstens drei Varianten, wie der Gesprächspartner darauf reagieren könnte.
-
-=== Übung Jetzt
-
-* Stellt euch kurz eurem Nachbarn vor.
-* erzählt kurz eine Anekdoten von 2 Personen, die auf die gleiche/ähnliche Situation völlig unterschiedlich reagiert haben.
-
-== Also ist raten die Lösung?
-
-=== Let me think about that
-
-... Nope!
-
-=== Fragen!
-
-=== Fragen um zu verstehen!
-
-=== NICHT um zu antworten!
-
-
-
-Know your sphere of influence
-Increase your sphere of influence
-
-You are making decisions. If others force you to do stuff, all they do is limit options until you favor the option they want.
-
-Plan for the worst, but don't bitch about it.
-
-Try to really understand. Understanding and empathy ist the coinage of communication.
-
-Be nice.
-
-Practicing is difficult, because git reset --hard is broken.
-
-Peinlichkeiten nimmt man selbst mehr war als alle anderen. Relax.
-
-Wenn du selbst ertrinkst, kannst du keinem anderen helfen.
-
-Learn from everybody. I hate soldiers. It is sickening to me that there are people that choose to get them self trained to kill people.
-BUT: I look up to SEALs for what they accomplish and the life ethics they bring forward.
-
-When you find out that you can't do what you set out to do. You can
-
-* sit in a corner, feel sorry about yourself and binge watch youtube
-
-* or you can take a deep breath and find out WHAT YOU CAN DO to change the world into one you like to live in more than the current one.
-
-== More Stuff
-
-Levels of Delegation
-
-Me Messages
-
-== Resources
-
-Chris Hadfield
-
-Just listen
-
-Difficult conversations
-
-Thinking fast and slow
-
-https://www.nytimes.com/2017/04/25/opinion/wrestling-explains-alex-jones-and-donald-trump.html?_r=0
-
-http://www.talentsmart.com/articles/How-Emotionally-Intelligent-People-Handle-Toxic-People-1028629190-p-1.html
-
-http://theoatmeal.com/comics/believe
-
-https://www.youtube.com/watch?v=eiTf0_3-71w
-
-Living with a SEAL
-
-https://gist.github.com/schauder/58e317346ac76590c6c29cefd36b2c29
+=== Resourcen
+Just Listen
+Difficult Conversations
+
+=== Noch Zweifel ob das funktioniert?
+
+[quote]
+----
+So – you say that so far I don’t see any reason why my mum didn’t abort me. Want to email some more so we can get to know each other?
+----
 
 http://inews.co.uk/opinion/comment/i-deal-nasty-comments-online/
 
-Stoicism "We suffer more often in imagination than in reality"
-https://www.youtube.com/watch?v=5J6jAC6XxAI
+[NOTE.speaker]
+----
+Eine Frau bekommt übelsten Hasskommentar.
+Antwortet freundlich. Bedankt sich für das Feedback und fragt freundlich und interessiert nach Hintergründen.
+----
 
-https://twitter.com/benjiweber/status/888009994356097025
+=== Immer noch?
+
+Black Man Befriends KKK Members
+
+http://www.huffingtonpost.com/entry/black-man-daryl-davis-befriends-kkk-documentary-accidental-courtesy_us_585c250de4b0de3a08f495fc
+
+=== Aufgabe
+
+Lobt Speaker für Dinge die euch gefallen.
+
+
+=== Aufgabe
+
+Wenn euch etwas nicht gefällt, findet heraus was die Speaker darüber denken.
+
+===!
+
+Mir ist nicht ganz klar geworden warum Psychologie wichtig ist für die Kommunikation, kannst du mir das noch mal erläutern?
+
+=== Aufgabe
+
+Versucht es mit Kindern
+
+=== Resource
+
+Jeff Atwood von Coding Horror beschreibt es.
+https://blog.codinghorror.com/how-to-talk-to-human-beings/
+
+=== Letzte Referenz
+
+The Oatmeal
+
+http://theoatmeal.com/comics/believe
+
+== self slide
