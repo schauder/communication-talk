@@ -25,12 +25,12 @@ repositories {
 }
 
 ext {
-    downloadDir = new File(buildDir,'download')
+    downloadDir = new File(buildDir, 'download')
 
     revealjsVersion = 'master'
     revealjsTemplateVersion = 'master'
-    revealjsDir = new File(downloadDir,'reveal.js')
-    revealjsTemplateDir = new File(downloadDir,'revealjs-backends/revealjs')
+    revealjsDir = new File(downloadDir, 'reveal.js')
+    revealjsTemplateDir = new File(downloadDir, 'revealjs-backends/revealjs')
 
     examplesDir = file("${buildDir}/examples")
 
@@ -42,8 +42,8 @@ targetCompatibility = 1.8
 dependencies {
     compile 'org.ysb33r.groovy:groovy-vfs:1.0'
     compile 'org.codehaus.groovy:groovy:2.4.10'
-    testCompile ('org.spockframework:spock-core:1.0-groovy-2.4') {
-        exclude module : 'groovy-all'
+    testCompile('org.spockframework:spock-core:1.0-groovy-2.4') {
+        exclude module: 'groovy-all'
     }
 }
 
@@ -51,11 +51,11 @@ task download {
     doLast {
         mkdir downloadDir
         vfs {
-            if(!revealjsDir.exists()) {
+            if (!revealjsDir.exists()) {
                 cp "zip:https://github.com/hakimel/reveal.js/archive/${revealjsVersion}.zip!reveal.js-${revealjsVersion}",
                         revealjsDir, recursive: true, overwrite: true
             }
-            if(!revealjsTemplateDir.exists()) {
+            if (!revealjsTemplateDir.exists()) {
                 cp "zip:https://github.com/ysb33r/asciidoctor-reveal.js/archive/${revealjsTemplateVersion}.zip!asciidoctor-reveal.js-${revealjsTemplateVersion}/templates/slim",
                         revealjsTemplateDir, recursive: true, overwrite: true
             }
@@ -85,28 +85,26 @@ asciidoctor {
             include 'stylesheets/**'
             include 'reveal.js/**'
         }
-        from (downloadDir) {
+        from(downloadDir) {
             include 'reveal.js/**'
         }
     }
 
     backends 'revealjs'
 
-    options template_dirs : [ revealjsTemplateDir.parentFile.absolutePath ]
+    options template_dirs: [revealjsTemplateDir.parentFile.absolutePath]
 
     attributes 'source-highlighter': 'coderay'
-    attributes 'asciidoctorj' : asciidoctorj.version
-    attributes imagesoutdir : "${outputDir}/revealjs/images"
+    attributes 'asciidoctorj': asciidoctorj.version
+    attributes imagesoutdir: "${outputDir}/revealjs/images"
+
+    attributes 'source-highlighter': 'highlightjs'
+    attributes 'highlightjs-theme': 'reveal.js/lib/css/zenburn.css'
+    attributes 'imagesdir': './images'
+
 
     dependsOn download
 
-    doLast {
-        fileTree(outputDir) {
-            include '**/*.html'
-        }.files.each {
-            it.text = it.text.replaceAll(/src="diag-/,'src="images/diag-')
-        }
-    }
 }
 
 build.dependsOn asciidoctor
