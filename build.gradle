@@ -1,102 +1,112 @@
-apply plugin: de.schauderhaft.ascii.reveal.AsciiReveal
-
-asciiReveal {
-    srcDir = "blah"
-    srcFile = "index.ad"
-    template = "schauderhaft"
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'commons-httpclient:commons-httpclient:3.1'
+        classpath 'org.asciidoctor:asciidoctorj-diagram:1.3.1'
+    }
 }
 
-apply plugin: 'java'
+plugins {
+    id 'java'
+    id 'groovy'
+    id 'org.asciidoctor.convert' version '1.5.3'
+    id 'org.ysb33r.vfs' version '1.0'
+}
 
 
-version = '1.0.0-SNAPSHOT'
+asciidoctorj {
+    version = '1.5.4'
+}
+
+repositories {
+    jcenter()
+}
 
 ext {
-    revealjsVersion = '3.4.1'
-    asciidoctorBackendVersion = 'master'
-    downloadDir = new File(buildDir, 'download')
-    templateDir = new File(downloadDir, 'templates')
-    revealjsDir = new File(downloadDir, 'reveal.js')
+    downloadDir = new File(buildDir,'download')
+
+    revealjsVersion = 'master'
+    revealjsTemplateVersion = 'master'
+    revealjsDir = new File(downloadDir,'reveal.js')
+    revealjsTemplateDir = new File(downloadDir,'revealjs-backends/revealjs')
+
+    examplesDir = file("${buildDir}/examples")
+
 }
 
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
 dependencies {
-    gems 'rubygems:slim:3.0.6'
-    gems 'rubygems:thread_safe:0.3.5'
-    gems 'rubygems:asciidoctor-diagram:1.4.0'
+    compile 'org.ysb33r.groovy:groovy-vfs:1.0'
+    compile 'org.codehaus.groovy:groovy:2.4.10'
+    testCompile ('org.spockframework:spock-core:1.0-groovy-2.4') {
+        exclude module : 'groovy-all'
+    }
 }
 
 task download {
     doLast {
         mkdir downloadDir
         vfs {
-
-            cp "zip:https://github.com/asciidoctor/asciidoctor-reveal.js/archive/${asciidoctorBackendVersion}.zip!asciidoctor-reveal.js-${asciidoctorBackendVersion}",
-                    templateDir, recursive: true, overwrite: true
-            cp "zip:https://github.com/hakimel/reveal.js/archive/${revealjsVersion}.zip!reveal.js-${revealjsVersion}",
-                    revealjsDir, recursive: true, overwrite: true
+            if(!revealjsDir.exists()) {
+                cp "zip:https://github.com/hakimel/reveal.js/archive/${revealjsVersion}.zip!reveal.js-${revealjsVersion}",
+                        revealjsDir, recursive: true, overwrite: true
+            }
+            if(!revealjsTemplateDir.exists()) {
+                cp "zip:https://github.com/ysb33r/asciidoctor-reveal.js/archive/${revealjsTemplateVersion}.zip!asciidoctor-reveal.js-${revealjsTemplateVersion}/templates/slim",
+                        revealjsTemplateDir, recursive: true, overwrite: true
+            }
         }
     }
 }
 
 download {
-    description "Download extra revealjs resources"
-    outputs.dir templateDir
     outputs.dir revealjsDir
+    outputs.dir revealjsTemplateDir
 }
-
-task themeResources(type: Copy) {
-    dependsOn download
-    from 'src/docs/sass' into 'build/download/reveal.js/css/theme'
-}
-
-tasks.withType(Copy) {
-    eachFile { println it.file; println it.getPath() }
-}
-
-compileSass {
-    dependsOn download, themeResources
-
-    scssFile = 'src/docs/sass/schauderhaft.scss'
-    cssFile = 'build/download/reveal.js/css/theme/schauderhaft.css'
-}
-
 
 asciidoctor {
-    dependsOn jrubyPrepare, download, compileSass, asciireveal
 
-    requires = ['asciidoctor-diagram']
-    gemPath = jrubyPrepare.outputDir
+    inputs.dir 'src/main'
+    inputs.dir 'src/test'
+
+    requires 'asciidoctor-diagram'
 
     sources {
         include 'talk.ad'
     }
+
     resources {
-        from(sourceDir) {
+        from('src/docs/asciidoc') {
             include 'images/**'
+            include 'stylesheets/**'
+            include 'reveal.js/**'
         }
-        from(downloadDir) {
+        from (downloadDir) {
             include 'reveal.js/**'
         }
     }
+
     backends 'revealjs'
-    attributes    \
-           'build-gradle': file('build.gradle'),
-            'sourcedir': project.sourceSets.main.java.srcDirs[0],
-            'endpoint-url': 'http://example.org',
-            'source-highlighter': 'highlightjs',
-            'highlightjs-theme': 'reveal.js/lib/css/zenburn.css',
-            'imagesdir': './images',
-            'toc': 'left',
-            'icons': 'font',
-            'setanchors': '',
-            'idprefix': 'slide-',
-            'idseparator': '-',
-            'docinfo1': '',
-            'revealjs_theme': 'schauderhaft',
-            'revealjs_transition': 'linear',
-            'revealjs_history': 'true',
-            'revealjs_slideNumber': 'false',
-            'revealjs_controls' : 'false',
-            'conference': 'Javaland 2017'
-    options template_dirs: [new File(templateDir, 'templates/slim').absolutePath]
+
+    options template_dirs : [ revealjsTemplateDir.parentFile.absolutePath ]
+
+    attributes 'source-highlighter': 'coderay'
+    attributes 'asciidoctorj' : asciidoctorj.version
+    attributes imagesoutdir : "${outputDir}/revealjs/images"
+
+    dependsOn download
+
+    doLast {
+        fileTree(outputDir) {
+            include '**/*.html'
+        }.files.each {
+            it.text = it.text.replaceAll(/src="diag-/,'src="images/diag-')
+        }
+    }
 }
+
+build.dependsOn asciidoctor
