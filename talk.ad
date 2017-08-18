@@ -1,31 +1,437 @@
 = Kommunikation nicht nur für Software Entwickler
 
-== Disclaimer
+== Getting started
 
-=== Ich bin Experte
+=== Kommunikation is essentiell
+
+// Cartoon:
+Komm wir essen, Opa
+
+Komm wir essen Opa
+
+Ok, ich hole das Beil
+
 
 [NOTE.speaker]
-Erfahrung mit erfolgreicher und vor allem nicht so erfolgreicher Kommunikation seit mehr als 45 Jahren.
+----
+"Ich weiß nicht ob dauerhaft Home Office was für mich ist, ich habe das nie so gemacht"
+Beinahe den Job nicht bekommen, da Ollie dachte ich will da nur was ausprobieren.
 
-=== aber nicht qualifiziert
+Teams
 
-Kein Abschluss, keine besonderen Erfolge
+Beziehungen
+
+Chef/PL von Dingen überzeugen
+
+----
+
+=== Erfahrung != Experte
+
+Nach links gekipptes T
+
+=== Falsches Werkzeug
+
+// Hammer mit Sechkantschraube
+
+[NOTE.speaker]
+----
+Wir haben das falsche Werkzeug.
+Wir haben das falsche Modell vom Problem.
+
+Computer verhalten sich immer deterministisch.
+
+Menschen sind zustandsbehaftet.
+Und das in einem massiv parallelen Kontext.
+
+Muss ja schief gehen.
+----
+
+== Das klassische Model
+
+===!
+
+[quote, Gerhard Polt, "Auf dem Kreuzzug ins Glück" von den Toten Hosen]
+----
+Wenn man sieht, dass eine Sache genetisch versaut ist, kann man das mit Prügel allein auch nicht korrigieren.
+----
+
+[NOTE.speaker]
+----
+Es gibt nur begrenzte Mittel, wie wir Kommunikation direkt steuern können.
+
+Laut und deutlich sprechen.
+Kurze einfache Sätze.
+Oder hat durch Gewalt.
+----
+
+=== Feedback Sandwich
+
+// Feedback Sandwich
+[NOTE.speaker]
+----
+Wenn ich merke, dass das lecker Feedback nur das vergammelte Fleisch übertönen soll, werde ich bald kein Feedback mehr annehmen.
+----
+
+=== Fakten, Fakten, Fakten
+
+[NOTE.speaker]
+----
+Habe ich lange und oft versucht.
+
+Funktioniert überhaupt nicht.
+
+Aber es führt zur Wurzel des Problems. Es geht nämlich nicht um Fakten.
+----
+
+== Schauders Eisbergmodell
+
+// Eisbergmodell. Top
+
+[NOTE.speaker]
+----
+Es ist ziemlich egal, was ich im oberen Bereich mache.
+
+Die Bewegung wird durch die Masse unter Wasser und die Meeresströmung bestimmt.
+
+Allenfalls kippt der Eisberg. Alles was ich glaubte erreicht zu haben ist weg und ich stehe vor einer völlig neuen Situation.
+----
+
+=== Unter Wasser
+
+// Eisbergmodell. Bottom / Psychologie
+
+
+[NOTE.speaker]
+----
+Der untere Teil des Eisbergs besteht aus zwei Dingen:
+
+Psychologie: Die nicht trivialen Zusammenhänge, die bestimmen wie mein Gegenüber auf meine Kommunikationsversuche reagiert.
+
+Wenn ich ein gutes Segelboot bauen will muss ich mich sehr viel mit Strömungsdynamik beschäftigen.
+Psychologie ist die Strömungsmechanik der Kommunikation.
+----
+
+=== Unter Wasser
+
+// Eisbergmodell. Bottom / Selbstmanagement
+
+[NOTE.speaker]
+----
+Der zweite Teil ist Selbstmanagement
+
+Nur wenn ich weiß, was ich kann und will, kann ich das gezielt und sinnvoll in der Kommunikation einsetzen.
+
+Und ich habe die Möglichkeit meine Fähigkeiten und Möglichkeiten gezielt zu erweitern.
+----
+
+== Selbstmanagement
+
+=== Just say No!
+
+
+[NOTE.speaker]
+----
+Warum haben viele Menschen ein Problem damit Nein zu sagen?
+
+Konkret:
+Ihr seid Teil eines richtig coolen Projektes.
+Ihr seid der einzige der die Fähigkeiten hat die Bugs zeitnah zu fixen.
+Ihr schiebt mächtig Überstunden weil es so viele Bug Reports gibt, die alle ganz dringend sind.
+
+Kennt jemand solche Situationen?
+
+Was sind eure Ziele/Wertvorstellungen?
+Warum fühlt ihr euch in der Situation nicht wohl?
+
+Vielleicht:
+* Guter Teamplayer
+* Guter Vater/Mutter
+* Brötchenverdiener
+* Freizeit genießen
+* Projekt zum Erfolg führen
+----
+
+== Aufgabe
+
+Ziele und Wertvorstellungen priorisieren.
+
+Ziel: Verbesserte Fähigkeit schwere Entscheidungen zu treffen und zu kommunizieren.
+
+Referenz: 7 Habits
+
+[NOTE.speaker]
+----
+Aufschreiben.
+
+Monatlich wiederholen.
+
+Wenn stabil einmal im Jahr, oder wenn ihr merkt, dass sich was verändert
+
+Ziel: Verbesserte Fähigkeit schwere Entscheidungen zu treffen und zu kommunizieren.
+----
+
+=== Noch ne Aufgabe
+
+Wenn ihr euch euch unwohl fühlt in einer Situation:
+
+Welche Ziele/Werte kollidieren gerade? Welche sind euch wichtiger?
+
+==!
+
+// show of hands
+
+[NOTE.speaker]
+----
+Wer ist hier, weil er muss, und nicht weil er es möchte?
+
+Wer war schon mal bei einem Event wo er hin musste, obwohl er nicht wollte?
+----
+
+=== Fake Fact!
+
+[NOTE.speaker]
+----
+Wenn wir nicht von Entführung sprechen, habt ihr eine Wahl
+
+Und ihr habt sie getroffen, weil sie die war, die euren Zielen am besten entspricht.
+
+Ihr hättet gerne andere Optionen gehabt, die standen aber nicht zur Wahl!
+----
+
+=== Circle of Concern vs C.o. Influence
+
+Serenty Prayer
+
+[NOTE.speaker]
+----
+Es gibt viele Dinge, die uns nicht interessieren. Der sprichwörtliche Sack Reis in China z.B.
+Es gibt Dinge die uns interessieren, die wir aber nicht beeinflussen geschweige denn kontrollieren können.
+Z.B. den amerikanischen Presidenten.
+Und es gibt Dinge die wir kontrollieren können.
+Wie schnell wir fahren. Ob wir jemanden anschreien, oder nicht.
+
+Der Unterschied ist nicht immer offensichtlich, aber extrem wichtig für die erfolgreiche Kommunikation.
+
+Wir kontrollieren was und wie wir etwas sagen.
+Wir kontrollieren ob wir etwas als Angriff oder Beleidigung betrachten.
+
+Wir kontrollieren NICHT wie jemand auf das reagiert was wir sagen!
+Aber wir können kontrollieren, wie wir auf  seine/ihre Reaktion reagieren.
+
+Es hilft nicht über Dinge zu jammern die man nicht ändern kann.
+----
+
+=== Circle of Influence entwickeln.
+
+[NOTE.speaker]
+----
+Aktives verhalten vergrößert den Circle of Influence. Passives verringert ihn.
+Wenn ein schwieriges Gespräch ansteht gibt es zwei Strategien:
+
+Abwarten und hoffen, dass nichts passiert.
+Selbst bestimmen, wann und wie das Gespräch statt findet.
+
+Wenn es eurem Arbeitgeber schlecht geht habt ihr zwei Möglichkeiten
+Aktiv werden und euren Job sichern (evtl. in dem ihr einen neuen sucht)
+Oder warten, bis ihr die Kündigung bekommt (evtl. dabei jammern)
+----
+
+=== Aufgabe
+
+Welche Entscheidung habt ihr heute getroffen?
+Welches ist die aktive, welches die passive Option?
+Für welche habt ihr euch entschieden?
+Habt ihr die Entscheidung mit ganzer Energie verfolgt?
+
+=== Referenz
+
+Jens Corssen https://www.amazon.de/Als-Selbst-Entwickler-privatem-beruflichem-Erfolg/dp/3000153845/ref=la_B00458JFKE_1_2?s=books&ie=UTF8&qid=1493627462&sr=1-2
+
+== Plant die Katastrophen
+
+<link skip>
+TODO
+
+== Psychologie
+
+=== Die spinnen, die Menschen
+
+// Obelix
+
+[NOTE.speaker]
+----
+10 Teller 1a Qualität erzielen einen besseren Preis als 12 Teller, wobei 2 leichte Schäden haben.
+
+Menschen zahlen weniger um etwas zu kaufen als sie verlangen um es zurück zu bekommen.
+
+Wenn ihr also jemanden überzeugen wollt, helfen logische Argumente nicht.
+Offensichtlichen Blödsinn zu erzählen macht die Sache auch nicht einfacher, aber selbst damit kann man amerikanischer Präsident werden.
+----
+
+=== Referenzen
+
+Denken hilft zwar, nützt aber nichts
+
+=== Thinking fast and slow
+
+// Gehirn als Schnecke vs Rennwagen
+
+[NOTE.speaker]
+----
+Menschen können rational denken. Der wissenschaftliche Fortschritt und funktionierende Software ist der Beleg.
+Aber jeder Software Entwickler weiß: Das ist schwierig, anstrengend und langsam!
+
+Unsere Evolution hat in einer gefährlichen Umgebung statt gefunden.
+Wenn man im Wald ein Rascheln und ein Grummeln hört, ist eine gründliche Analyse eine tödliche Reaktion.
+
+Stattdessen: soforte, direkte Reaktion => Flucht, Angriff oder tot stellen.
+
+Die gleichen Reaktionsmuster greifen auch heute noch in der täglichen Kommunikation
+----
+
+===
+
+Resource: Thinking Fast and Thinking Slow
+
+== Apropos Kommunikation
+
+===!
+
+[quote]
+----
+Du hast da einen Fehler gemacht.
+----
+
+[NOTE.speaker]
+----
+Ist diese Aussage richtig? => egal, dafür braucht man das langsame System.
+Ist diese Aussage relevant? => egal, dafür braucht man das langsame System.
+Gibt es eine Chance, dass dies eine Angriff auf mich ist? Aber JA! => Angriff, Flucht, Verteidigung
+
+=> Du machst doch auch Fehler!
+=> Mach du es doch besser!
+=> Gar nicht!
+----
+
+=== Ich Botschaften
+
+[quote]
+----
+Ich glaube du hast da einen Fehler gemacht.
+----
+
+[NOTE.speaker]
+----
+Da steht zwar "Ich", es ist aber trotzdem keine Ich Botschaft.
+----
+
+=== Zweiter Versuch
+
+[quote]
+----
+Das verwirrt mich. Ist es nicht einfacher das so zu machen?
+----
+
+[NOTE.speaker]
+----
+Viel weniger Chance des Gegenübers das als Angriff zu interpretieren. Wir können es aber nicht kontrollieren (s.o.)
+
+Ja, das ist eine ganz andere Aussage.
+10% der Arbeit ist es diese Aussage zu treffen.
+----
+
+=== Seit ehrlich!
+
+[NOTE.speaker]
+----
+90% der Arbeit ist es diese Aussage zu meinen!
+
+Es gibt dem Gegenüber eine Chance mit euch zu kommunizieren.
+----
+
+==!
+
+[quote]
+----
+Ich verstehe nicht warum dieser Teil funktioniert. Kannst du es mir erklären?
+----
+
+[NOTE.speaker]
+----
+Vermeidet "Warum". "Warum" klingt wie eine Aufforderung zur Rechtfertigung.
+
+Fragt nicht um den Gegnüber auf euer Ziel hinzuweisen.
+Hört nicht zu um zu antworten.
+----
+
+== Fragt und hört zu, um zu verstehen
+
+[NOTE.speaker]
+----
+Der interessiert sich für mich (positiv)
+----
+
+==!
+
+// Waage mit + und - Zeichen
+
+[NOTE.speaker]
+----
+Die Psyche ist wie eine Waagschale, die positive mit negativen Erfahrungen vergleicht.
+Negative sind ungefähr 5x so schwer wie positive
+----
+
+
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+==Material
+
+#xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+
 
 == Die echten Probleme sind Probleme mit Personen, nicht mit Technik
 
-=== Projekt mit minimalem Aufwand
+=== Wir arbeiten in Teams
 
-Ein Entwickler
-
-=== Aber so viel Zeit haben wir meist nicht
-
-Wir arbeiten in Teams
-
-=== Konflikte
+=== => Konflikte!
 
 === Die tun nicht was ich will
 
-Oder was sie sollen.
+=== Oder was sie sollen.
+
+=== Die zieht sich falsch an!
+
+=== Der kommt immer so spät.
+
+=== Tabs vs Spaces!
+
+== Lösungsstrategien
+
+=== Flucht
+
+[NOTE.speaker]
+Ich kündige und suche mir einen anderen Job.
+
+Scheidung.
+
+Wegziehen.
+
+Aber auch: Ok, wir machen das so wie du willst.
+
+=== Angriff
+
+[NOTE.speaker]
+Körperliche Gewalt. Mobbing. Denn Schnee in die Einfahrt des Nachbarn schieben.
+
+Aber auch: Schreien, Beschimpfen, mit Rethorisch zu nichte machen.
+
+=== Tot stellen
+
+[NOTE.speaker]
+Dienst nach Vorschrift. Unauffällig verhalten
+
+=== Keine dieser Strategien löst das Problem
+
+=== Kommunikation!
 
 == Menschen sind nicht rational
 
@@ -35,20 +441,23 @@ BWL: Der Mensch ist rational und allwissend.
 
 === Rocket Science
 
-You want to catch up with a vehicle in the same orbit as you are, what do you do?
+Wie holt man einen Sateliten ein, der vor einem in einem Kreis Orbit fliegt?
 
 * Vorwärts Schub
 * Rückwärts Schub
 * Scott Manley fragen https://www.youtube.com/watch?v=AHkY3FusJIQ
 
+[NOTE.speaker]
+Rückwärts Schub. Man sinkt auf ein niedrigeres Orbit. Dort hat man eine höhere Winkelgeschwindigkeit und holt auf.
+
 === Kreisel
 
+[NOTE.speaker]
 Wenn man einen Kreisel versucht zu kippen, kippt er in eine andere Richtung als die Kraft wirkt.
 
 === Es ist alles noch viel schlimmer.
 
 In welche Richtung dreht sich der Kreisel?
-
 
 == Genug hinkende Metaphern
 
@@ -70,7 +479,7 @@ In welche Richtung dreht sich der Kreisel?
 
 * War bis vor einem Jahr Standard, bis massive Probleme in Projekten zur Aufhebung des Standardas geführt haben.
 
-* Oh ...
+* ... Oh.
 
 === Entscheidung durch PL
 
@@ -104,12 +513,12 @@ Daher kann ein und derselbe Reiz zu völlig unterschiedlichen Reaktionen führen
 * Wann reagieren Personen völlig anders (als ihr oder jemand drittes)
 * Was könnten die Gründe dafür sein?
 
-=== Im Job
+=== Übung im Job
 
 * Ihr wollt ein Thema besprechen, vielleicht einen Vorschlag machen
 * überlegt vorher wenigstens drei Varianten, wie der Gesprächspartner darauf reagieren könnte.
 
-=== Jetzt
+=== Übung Jetzt
 
 * Stellt euch kurz eurem Nachbarn vor.
 * erzählt kurz eine Anekdoten von 2 Personen, die auf die gleiche/ähnliche Situation völlig unterschiedlich reagiert haben.
@@ -125,6 +534,7 @@ Daher kann ein und derselbe Reiz zu völlig unterschiedlichen Reaktionen führen
 === Fragen um zu verstehen!
 
 === NICHT um zu antworten!
+
 
 
 Know your sphere of influence
@@ -169,8 +579,6 @@ Difficult conversations
 
 Thinking fast and slow
 
-Jens Corssen https://www.amazon.de/Als-Selbst-Entwickler-privatem-beruflichem-Erfolg/dp/3000153845/ref=la_B00458JFKE_1_2?s=books&ie=UTF8&qid=1493627462&sr=1-2
-
 https://www.nytimes.com/2017/04/25/opinion/wrestling-explains-alex-jones-and-donald-trump.html?_r=0
 
 http://www.talentsmart.com/articles/How-Emotionally-Intelligent-People-Handle-Toxic-People-1028629190-p-1.html
@@ -184,3 +592,8 @@ Living with a SEAL
 https://gist.github.com/schauder/58e317346ac76590c6c29cefd36b2c29
 
 http://inews.co.uk/opinion/comment/i-deal-nasty-comments-online/
+
+Stoicism "We suffer more often in imagination than in reality"
+https://www.youtube.com/watch?v=5J6jAC6XxAI
+
+https://twitter.com/benjiweber/status/888009994356097025
