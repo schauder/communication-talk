@@ -1,4 +1,5 @@
 = Kommunikation nicht nur für Software Entwickler
+:revealjs_customtheme: reveal.js/css/theme/schauderhaft.css
 :icons: font
 :twitter-tag: @jensschauder
 :conference-tag: #hc17
@@ -321,9 +322,9 @@ Stattdessen: soforte, direkte Reaktion => Flucht, Angriff oder tot stellen.
 Die gleichen Reaktionsmuster greifen auch heute noch in der täglichen Kommunikation
 ====
 
-===
+=== Resource
 
-Resource: Thinking Fast and Thinking Slow
+Thinking Fast and Thinking Slow
 
 == Apropos Kommunikation
 
