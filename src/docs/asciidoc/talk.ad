@@ -7,15 +7,14 @@
 
 include::footer.ad[]
 
-== Getting started
+== !
 
-=== Kommunikation is essentiell
+image::axe.jpg[background, size=contain]
 
-// Cartoon:
-Komm wir essen, Opa
-
+[quote]
 Komm wir essen Opa
 
+[quote]
 Ok, ich hole das Beil
 
 
@@ -32,13 +31,12 @@ Chef/PL von Dingen überzeugen
 
 ====
 
-=== Erfahrung != Experte
+=== Erfahrung &#x22A2;&#x0338; Experte
 
-Nach links gekipptes T
 
 === Falsches Werkzeug
 
-// Hammer mit Sechkantschraube
+image::screw.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
@@ -50,22 +48,25 @@ Computer verhalten sich immer deterministisch.
 Menschen sind zustandsbehaftet.
 Und das in einem massiv parallelen Kontext.
 
-Muss ja schief gehen.
+Hilft Stackoverflow?.
 
 git reset --hard funktioniert leider auch nicht.
 ====
 
 == !
 
-https://twitter.com/benjiweber/status/888009994356097025
+image::stackoverflow.png[background, size=contain]
+
+
+[NOTE.speaker]
+====
+Leider nein.
+
+git reset --hard funktioniert leider auch nicht.
+====
+
 
 == Das klassische Model
-
-=== !
-
-[quote, Gerhard Polt, "Auf dem Kreuzzug ins Glück" von den Toten Hosen]
-Wenn man sieht, dass eine Sache genetisch versaut ist, kann man das mit Prügel allein auch nicht korrigieren.
-
 
 [NOTE.speaker]
 ====
@@ -73,12 +74,22 @@ Es gibt nur begrenzte Mittel, wie wir Kommunikation direkt steuern können.
 
 Laut und deutlich sprechen.
 Kurze einfache Sätze.
-Oder hat durch Gewalt.
+====
+
+=== !
+
+[quote, Gerhard Polt, Auf dem Kreuzzug ins Glück von den Toten Hosen]
+Wenn man sieht, dass eine Sache genetisch versaut ist, kann man das mit Prügel allein auch nicht korrigieren.
+
+[NOTE.speaker]
+====
+Oder halt durch Gewalt.
 ====
 
 === Feedback Sandwich
 
-// Feedback Sandwich
+image::burger.jpg[background, size=contain]
+
 [NOTE.speaker]
 ====
 Wenn ich merke, dass das lecker Feedback nur das vergammelte Fleisch übertönen soll, werde ich bald kein Feedback mehr annehmen.
@@ -95,9 +106,9 @@ Funktioniert überhaupt nicht.
 Aber es führt zur Wurzel des Problems. Es geht nämlich nicht um Fakten.
 ====
 
-== Schauders Eisbergmodell
+== !
 
-// Eisbergmodell. Top
+image::iceberg-wo.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
@@ -108,10 +119,9 @@ Die Bewegung wird durch die Masse unter Wasser und die Meeresströmung bestimmt.
 Allenfalls kippt der Eisberg. Alles was ich glaubte erreicht zu haben ist weg und ich stehe vor einer völlig neuen Situation.
 ====
 
-=== Unter Wasser
+=== !
 
-// Eisbergmodell. Bottom / Psychologie
-
+image::iceberg.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
@@ -121,14 +131,7 @@ Psychologie: Die nicht trivialen Zusammenhänge, die bestimmen wie mein Gegenüb
 
 Wenn ich ein gutes Segelboot bauen will muss ich mich sehr viel mit Strömungsdynamik beschäftigen.
 Psychologie ist die Strömungsmechanik der Kommunikation.
-====
 
-=== Unter Wasser
-
-// Eisbergmodell. Bottom / Selbstmanagement
-
-[NOTE.speaker]
-====
 Der zweite Teil ist Selbstmanagement
 
 Nur wenn ich weiß, was ich kann und will, kann ich das gezielt und sinnvoll in der Kommunikation einsetzen.
@@ -140,36 +143,42 @@ Und ich habe die Möglichkeit meine Fähigkeiten und Möglichkeiten gezielt zu e
 
 === Just say No!
 
+image::no.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
 Warum haben viele Menschen ein Problem damit Nein zu sagen?
 
 Konkret:
+
 Ihr seid Teil eines richtig coolen Projektes.
+
 Ihr seid der einzige der die Fähigkeiten hat die Bugs zeitnah zu fixen.
+
 Ihr schiebt mächtig Überstunden weil es so viele Bug Reports gibt, die alle ganz dringend sind.
 
 Kennt jemand solche Situationen?
 
 Was sind eure Ziele/Wertvorstellungen?
+
 Warum fühlt ihr euch in der Situation nicht wohl?
 
 Vielleicht:
+
 * Guter Teamplayer
+
 * Guter Vater/Mutter
+
 * Brötchenverdiener
+
 * Freizeit genießen
+
 * Projekt zum Erfolg führen
 ====
 
 == Aufgabe
 
 Ziele und Wertvorstellungen priorisieren.
-
-Ziel: Verbesserte Fähigkeit schwere Entscheidungen zu treffen und zu kommunizieren.
-
-Referenz: 7 Habits
 
 [NOTE.speaker]
 ====
@@ -188,9 +197,14 @@ Wenn ihr euch euch unwohl fühlt in einer Situation:
 
 Welche Ziele/Werte kollidieren gerade? Welche sind euch wichtiger?
 
+
+=== !
+
+image::7habits.jpg[background, size=contain]
+
 == !
 
-// show of hands
+image::hand.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
@@ -201,6 +215,8 @@ Wer war schon mal bei einem Event wo er hin musste, obwohl er nicht wollte?
 
 === Fake Fact!
 
+image::trump.jpg[background, size=contain]
+
 [NOTE.speaker]
 ====
 Wenn wir nicht von Entführung sprechen, habt ihr eine Wahl
@@ -210,21 +226,30 @@ Und ihr habt sie getroffen, weil sie die war, die euren Zielen am besten entspri
 Ihr hättet gerne andere Optionen gehabt, die standen aber nicht zur Wahl!
 ====
 
-=== Circle of Concern vs C.o. Influence
+=== !
 
-Serenty Prayer
+[quote, Serenety Prayer]
+God, grant me the serenity to accept the things I cannot change,
+Courage to change the things I can,
+And wisdom to know the difference.
+
 
 [NOTE.speaker]
 ====
 Es gibt viele Dinge, die uns nicht interessieren. Der sprichwörtliche Sack Reis in China z.B.
+
 Es gibt Dinge die uns interessieren, die wir aber nicht beeinflussen geschweige denn kontrollieren können.
+
 Z.B. den amerikanischen Presidenten.
+
 Und es gibt Dinge die wir kontrollieren können.
+
 Wie schnell wir fahren. Ob wir jemanden anschreien, oder nicht.
 
 Der Unterschied ist nicht immer offensichtlich, aber extrem wichtig für die erfolgreiche Kommunikation.
 
 Wir kontrollieren was und wie wir etwas sagen.
+
 Wir kontrollieren ob wir etwas als Angriff oder Beleidigung betrachten.
 
 Wir kontrollieren NICHT wie jemand auf das reagiert was wir sagen!
@@ -233,7 +258,9 @@ Aber wir können kontrollieren, wie wir auf  seine/ihre Reaktion reagieren.
 Es hilft nicht über Dinge zu jammern die man nicht ändern kann.
 ====
 
-=== Circle of Influence entwickeln
+=== !
+
+image::circle.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
@@ -251,16 +278,18 @@ Oder warten, bis ihr die Kündigung bekommt (evtl. dabei jammern)
 === Aufgabe
 
 Welche Entscheidung habt ihr heute getroffen?
+
 Welches ist die aktive, welches die passive Option?
+
 Für welche habt ihr euch entschieden?
+
 Habt ihr die Entscheidung mit ganzer Energie verfolgt?
 
-=== Referenz
+=== !
 
-Jens Corssen https://www.amazon.de/Als-Selbst-Entwickler-privatem-beruflichem-Erfolg/dp/3000153845/ref=la_B00458JFKE_1_2?s=books&ie=UTF8&qid=1493627462&sr=1-2
+image::corssen.jpg[background, size=contain]
 
 == Plant die Katastrophen
-<link shortcut>
 
 // Mushroom cloud
 
@@ -276,20 +305,30 @@ Was könnt ihr tun, um den Schaden zu minimieren.
 Was kostet es euch wenn ihr passiv bleibt.
 ====
 
+
+
 === Nur wer fest steht kann andere bewegen
 
-=== Resourcen
+=== !
 
-Commander Hadfield
+image::hadfield.jpg[background, size=contain]
 
-Why you should define your fears instead of your goals | Tim Ferriss
+=== !
+
+image::tim-ferris.png[background, size=contain]
+
+[NOTE.side]
+====
+Why you should define your fears instead of your goals
+
 https://www.youtube.com/watch?v=5J6jAC6XxAI
+====
 
 == Psychologie
 
 === Die spinnen, die Menschen
 
-// Obelix
+image::obelix.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
@@ -301,13 +340,14 @@ Wenn ihr also jemanden überzeugen wollt, helfen logische Argumente nicht.
 Offensichtlichen Blödsinn zu erzählen macht die Sache auch nicht einfacher, aber selbst damit kann man amerikanischer Präsident werden.
 ====
 
-=== Referenzen
+=== !
 
-Denken hilft zwar, nützt aber nichts
+image::denken.jpg[background, size=contain]
+
 
 === Thinking fast and slow
 
-// Gehirn als Schnecke vs Rennwagen
+image::brain.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
@@ -322,9 +362,9 @@ Stattdessen: soforte, direkte Reaktion => Flucht, Angriff oder tot stellen.
 Die gleichen Reaktionsmuster greifen auch heute noch in der täglichen Kommunikation
 ====
 
-=== Resource
+=== !
 
-Thinking Fast and Thinking Slow
+image::thinking.jpg[background, size=contain]
 
 == Apropos Kommunikation
 
@@ -420,7 +460,7 @@ Er versteht mich!
 
 === !
 
-// Waage mit + und - Zeichen
+image::scale.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
@@ -428,16 +468,18 @@ Die Psyche ist wie eine Waagschale, die positive mit negativen Erfahrungen vergl
 Negative sind ungefähr 5x so schwer wie positive
 ====
 
-=== Resourcen
-Just Listen
-Difficult Conversations
+=== !
+
+image::listen.jpg[background, size=contain]
+
+=== !
+
+image::difficult.jpg[background, size=contain]
 
 === Noch Zweifel ob das funktioniert?
 
-[quote]
+[quote, http://inews.co.uk/opinion/comment/i-deal-nasty-comments-online/]
 So – you say that so far I don’t see any reason why my mum didn’t abort me. Want to email some more so we can get to know each other?
-
-http://inews.co.uk/opinion/comment/i-deal-nasty-comments-online/
 
 [NOTE.speaker]
 ====
@@ -445,16 +487,23 @@ Eine Frau bekommt übelsten Hasskommentar.
 Antwortet freundlich. Bedankt sich für das Feedback und fragt freundlich und interessiert nach Hintergründen.
 ====
 
-=== Immer noch?
+=== !
 
-Black Man Befriends KKK Members
+image::klan.png[background, size=contain]
 
+[NOTE.side]
+====
 http://www.huffingtonpost.com/entry/black-man-daryl-davis-befriends-kkk-documentary-accidental-courtesy_us_585c250de4b0de3a08f495fc
+====
+
+[NOTE.speaker]
+====
+Immer noch?
+====
 
 === Aufgabe
 
 Lobt Speaker für Dinge die euch gefallen.
-
 
 === Aufgabe
 
@@ -462,21 +511,28 @@ Wenn euch etwas nicht gefällt, findet heraus was die Speaker darüber denken.
 
 === !
 
+[quote]
 Mir ist nicht ganz klar geworden warum Psychologie wichtig ist für die Kommunikation, kannst du mir das noch mal erläutern?
 
 === Aufgabe
 
 Versucht es mit Kindern
 
-=== Resource
+=== !
 
-Jeff Atwood von Coding Horror beschreibt es.
-https://blog.codinghorror.com/how-to-talk-to-human-beings/
+image::codinghorror.png[background, size=contain]
 
-=== Letzte Referenz
+[NOTE.side]
+Jeff Atwood https://blog.codinghorror.com/how-to-talk-to-human-beings/
 
-The Oatmeal
+[NOTE.speaker]
+Jeff Atwood schreibt darüber
 
-http://theoatmeal.com/comics/believe
+=== !
+
+image::oatmeal.png[background, size=contain]
+
+[NOTE.side]
+The Oatmeal http://theoatmeal.com/comics/believe
 
 include::self.ad[]
