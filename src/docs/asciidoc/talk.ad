@@ -4,6 +4,7 @@
 :twitter-tag: @jensschauder
 :conference-tag: #hc17
 :talk-tag: #communication
+:slide-link: http://blog.schauderhaft.de/communication-talk/talk.html
 
 include::footer.ad[]
 
@@ -28,7 +29,6 @@ Teams
 Beziehungen
 
 Chef/PL von Dingen überzeugen
-
 ====
 
 === Erfahrung &#x22A2;&#x0338; Experte
@@ -317,12 +317,6 @@ image::hadfield.jpg[background, size=contain]
 
 image::tim-ferris.png[background, size=contain]
 
-[NOTE.side]
-====
-Why you should define your fears instead of your goals
-
-https://www.youtube.com/watch?v=5J6jAC6XxAI
-====
 
 == Psychologie
 
@@ -491,14 +485,11 @@ Antwortet freundlich. Bedankt sich für das Feedback und fragt freundlich und in
 
 image::klan.png[background, size=contain]
 
-[NOTE.side]
-====
-http://www.huffingtonpost.com/entry/black-man-daryl-davis-befriends-kkk-documentary-accidental-courtesy_us_585c250de4b0de3a08f495fc
-====
-
 [NOTE.speaker]
 ====
 Immer noch?
+Ein schwarzer Freundet sich mit Klansmen an.
+Er versucht sie NICHT zu überzeugen und tut es gerade deshalb.
 ====
 
 === Aufgabe
@@ -522,9 +513,6 @@ Versucht es mit Kindern
 
 image::codinghorror.png[background, size=contain]
 
-[NOTE.side]
-Jeff Atwood https://blog.codinghorror.com/how-to-talk-to-human-beings/
-
 [NOTE.speaker]
 Jeff Atwood schreibt darüber
 
@@ -532,7 +520,33 @@ Jeff Atwood schreibt darüber
 
 image::oatmeal.png[background, size=contain]
 
-[NOTE.side]
-The Oatmeal http://theoatmeal.com/comics/believe
+== !
+
+7 Habits Of Highly Effective People - Stephen R Covey - http://amzn.to/2xniDmq
+
+Das Corssen-Prinzip - Jens Corssen - http://amzn.to/2wzojgf
+
+An Astronaut's Guide to Life on Earth - Chris Hadfield - http://amzn.to/2x83XIH
+
+Auf dem Kreuzzug ins Glück - Die Toten Hosen - http://amzn.to/2wjgThz
+
+Tim Ferris https://www.youtube.com/watch?v=5J6jAC6XxAI
+
+Denken hilft zwar, nützt aber nichts - Dan Ariely - http://amzn.to/2v0IUdI
+
+Thinking Fast and Slow - Daniel Kahneman - http://amzn.to/2xmX31N
+
+Just Listen - Mark Goulston - http://amzn.to/2x7NGn3
+
+Difficult Conversations - Douglas Stone - http://amzn.to/2g0assW
+
+Frau begegnet Hasskomentaren mit freundlichem nachfragen - http://inews.co.uk/opinion/comment/i-deal-nasty-comments-online/
+
+Schwarzer freundet sich mit Klansmen an - http://www.huffingtonpost.com/entry/black-man-daryl-davis-befriends-kkk-documentary-accidental-courtesy_us_585c250de4b0de3a08f495fc
+
+How to talk to human beings - Jeff Atwood - https://blog.codinghorror.com/how-to-talk-to-human-beings/
+
+The Oatmeal - http://theoatmeal.com/comics/believe
+
 
 include::self.ad[]
