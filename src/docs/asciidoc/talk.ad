@@ -54,7 +54,7 @@ Hilft Stackoverflow?.
 git reset --hard funktioniert leider auch nicht.
 ====
 
-== !
+=== !
 
 image::stackoverflow.png[background, size=contain]
 
@@ -177,7 +177,7 @@ Vielleicht:
 * Projekt zum Erfolg führen
 ====
 
-== Aufgabe
+=== Aufgabe
 
 Ziele und Wertvorstellungen priorisieren.
 
@@ -411,7 +411,7 @@ Ja, das ist eine ganz andere Aussage.
 Es gibt dem Gegenüber eine Chance mit euch zu kommunizieren.
 ====
 
-== !
+=== !
 
 [quote]
 Ich verstehe nicht warum dieser Teil funktioniert. Kannst du es mir erklären?
@@ -426,14 +426,14 @@ Hört nicht zu um zu antworten.
 Man vergleiche das mit dem Feedback Sandwich.
 ====
 
-== Fragt und hört zu, um zu verstehen
+=== Fragt und hört zu, um zu verstehen
 
 [NOTE.speaker]
 ====
 Der interessiert sich für mich (positiv)
 ====
 
-== Wiederholt was ihr verstanden habt
+=== Wiederholt was ihr verstanden habt
 
 [NOTE.speaker]
 ====
@@ -442,7 +442,7 @@ Er versteht mich!
 Oder, nein, so habe ich das nicht gemeint
 ====
 
-== Benennt die Emotionen
+=== Benennt die Emotionen
 
 [quote]
 Du bist total wütend, oder?
@@ -455,7 +455,7 @@ Er versteht mich!
 
 === !
 
-image::scale.jpg[background, size=contain]
+image::scales.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
@@ -471,7 +471,7 @@ image::listen.jpg[background, size=contain]
 
 image::difficult.jpg[background, size=contain]
 
-=== Noch Zweifel ob das funktioniert?
+== Noch Zweifel ob das funktioniert?
 
 [quote, http://inews.co.uk/opinion/comment/i-deal-nasty-comments-online/]
 So – you say that so far I don’t see any reason why my mum didn’t abort me. Want to email some more so we can get to know each other?
@@ -493,7 +493,7 @@ Ein schwarzer Freundet sich mit Klansmen an.
 Er versucht sie NICHT zu überzeugen und tut es gerade deshalb.
 ====
 
-=== Aufgabe
+== Aufgabe
 
 Lobt Speaker für Dinge die euch gefallen.
 
@@ -515,11 +515,16 @@ Versucht es mit Kindern
 image::codinghorror.png[background, size=contain]
 
 [NOTE.speaker]
-Jeff Atwood schreibt darüber
+Jeff Atwood schreibt darüber, wie er mit seinen Kindern spricht.
 
 === !
 
 image::oatmeal.png[background, size=contain]
+
+
+[NOTE.speaker]
+The Oatmeal hat einen herrlichen cartoon, warum Argumente und Fakten nicht funktionieren
+
 
 == Resourcen
 
