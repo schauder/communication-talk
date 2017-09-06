@@ -2,7 +2,7 @@
 :revealjs_customtheme: reveal.js/css/theme/schauderhaft.css
 :icons: font
 :twitter-tag: @jensschauder
-:conference-tag: #hc17
+:conference-tag: #herbstcampus
 :talk-tag: #communication
 :slide-link: http://bit.ly/jsch-comm
 :linkattrs:
@@ -49,9 +49,6 @@ Computer verhalten sich immer deterministisch.
 Menschen sind zustandsbehaftet.
 Und das in einem massiv parallelen Kontext.
 
-Hilft Stackoverflow?.
-
-git reset --hard funktioniert leider auch nicht.
 ====
 
 === !
@@ -71,6 +68,8 @@ git reset --hard funktioniert leider auch nicht.
 
 [NOTE.speaker]
 ====
+Wir müssen die Kommunikation als solche verbessern.
+
 Es gibt nur begrenzte Mittel, wie wir Kommunikation direkt steuern können.
 
 Laut und deutlich sprechen.
@@ -148,7 +147,7 @@ image::no.jpg[background, size=contain]
 
 [NOTE.speaker]
 ====
-Warum haben viele Menschen ein Problem damit Nein zu sagen?
+Habt ihr ein Problem damit Nein zu sagen?
 
 Konkret:
 
@@ -159,6 +158,10 @@ Ihr seid der einzige der die Fähigkeiten hat die Bugs zeitnah zu fixen.
 Ihr schiebt mächtig Überstunden weil es so viele Bug Reports gibt, die alle ganz dringend sind.
 
 Kennt jemand solche Situationen?
+
+Dies sind Zeichen von inneren Konflikten.
+
+=== Euer Selbstbild ist in Gefahr
 
 Was sind eure Ziele/Wertvorstellungen?
 
@@ -237,15 +240,6 @@ And wisdom to know the difference.
 
 [NOTE.speaker]
 ====
-Es gibt viele Dinge, die uns nicht interessieren. Der sprichwörtliche Sack Reis in China z.B.
-
-Es gibt Dinge die uns interessieren, die wir aber nicht beeinflussen geschweige denn kontrollieren können.
-
-Z.B. den amerikanischen Presidenten.
-
-Und es gibt Dinge die wir kontrollieren können.
-
-Wie schnell wir fahren. Ob wir jemanden anschreien, oder nicht.
 
 Der Unterschied ist nicht immer offensichtlich, aber extrem wichtig für die erfolgreiche Kommunikation.
 
@@ -306,10 +300,6 @@ Was könnt ihr tun, um den Schaden zu minimieren.
 Was kostet es euch wenn ihr passiv bleibt.
 ====
 
-
-
-=== Nur wer fest steht kann andere bewegen
-
 === !
 
 image::hadfield.jpg[background, size=contain]
@@ -318,6 +308,14 @@ image::hadfield.jpg[background, size=contain]
 
 image::tim-ferris.png[background, size=contain]
 
+=== Nur wer fest steht kann andere bewegen
+
+[NOTE.speaker]
+====
+Es geht fast nie um reinen Informationsaustausch.
+
+Fast immer darum eine Reaktion zu erziehlen.
+====
 
 == Psychologie
 
@@ -423,8 +421,9 @@ Vermeidet "Warum". "Warum" klingt wie eine Aufforderung zur Rechtfertigung.
 Fragt nicht um den Gegnüber auf euer Ziel hinzuweisen.
 Hört nicht zu um zu antworten.
 
-Man vergleiche das mit dem Feedback Sandwich.
 ====
+
+== Konflikte
 
 === Fragt und hört zu, um zu verstehen
 
@@ -437,7 +436,7 @@ Der interessiert sich für mich (positiv)
 
 [NOTE.speaker]
 ====
-Er versteht mich!
+Er versteht mich! (positiv)
 
 Oder, nein, so habe ich das nicht gemeint
 ====
@@ -446,7 +445,6 @@ Oder, nein, so habe ich das nicht gemeint
 
 [quote]
 Du bist total wütend, oder?
-
 
 [NOTE.speaker]
 ====
@@ -461,6 +459,17 @@ image::scales.jpg[background, size=contain]
 ====
 Die Psyche ist wie eine Waagschale, die positive mit negativen Erfahrungen vergleicht.
 Negative sind ungefähr 5x so schwer wie positive
+
+Man vergleiche das mit dem Feedback Sandwich.
+====
+
+=== Chance auf gemeinsame Lösungen
+
+[NOTE.speaker]
+====
+Ihr versteht, was euer gegenüber will.
+Er ist euch gegüber in positiver Stimmung.
+Ihr wisst, was ihr eigentlich wollt (die Ziele).
 ====
 
 === !
