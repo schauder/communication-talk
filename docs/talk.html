@@ -1,4 +1,92 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title>Kommunikation nicht nur für Software Entwickler</title><meta content="yes" name="apple-mobile-web-app-capable" /><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" /><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport" /><link href="reveal.js/css/reveal.css" rel="stylesheet" /><link rel="stylesheet" href="reveal.js/css/theme/schauderhaft.css" id="theme" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" /><link href="reveal.js/lib/css/zenburn.css" rel="stylesheet" /><script>document.write( '<link rel="stylesheet" href="reveal.js/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Kommunikation nicht nur für Software Entwickler</h1><div class="preamble"><script type="text/javascript">
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title>Kommunikation nicht nur für Software Entwickler</title><meta content="yes" name="apple-mobile-web-app-capable" /><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" /><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport" /><link href="reveal.js-3.6.0/css/reveal.css" rel="stylesheet" /><link rel="stylesheet" href="theme/schauderhaft.css" id="theme" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" /><style>/* Stylesheet for CodeRay to match GitHub theme | MIT License | http://foundation.zurb.com */
+/*pre.CodeRay {background-color:#f7f7f8;}*/
+.CodeRay .line-numbers{border-right:1px solid #d8d8d8;padding:0 0.5em 0 .25em}
+.CodeRay span.line-numbers{display:inline-block;margin-right:.5em;color:rgba(0,0,0,.3)}
+.CodeRay .line-numbers strong{color:rgba(0,0,0,.4)}
+table.CodeRay{border-collapse:separate;border-spacing:0;margin-bottom:0;border:0;background:none}
+table.CodeRay td{vertical-align: top;line-height:1.45}
+table.CodeRay td.line-numbers{text-align:right}
+table.CodeRay td.line-numbers>pre{padding:0;color:rgba(0,0,0,.3)}
+table.CodeRay td.code{padding:0 0 0 .5em}
+table.CodeRay td.code>pre{padding:0}
+.CodeRay .debug{color:#fff !important;background:#000080 !important}
+.CodeRay .annotation{color:#007}
+.CodeRay .attribute-name{color:#000080}
+.CodeRay .attribute-value{color:#700}
+.CodeRay .binary{color:#509}
+.CodeRay .comment{color:#998;font-style:italic}
+.CodeRay .char{color:#04d}
+.CodeRay .char .content{color:#04d}
+.CodeRay .char .delimiter{color:#039}
+.CodeRay .class{color:#458;font-weight:bold}
+.CodeRay .complex{color:#a08}
+.CodeRay .constant,.CodeRay .predefined-constant{color:#008080}
+.CodeRay .color{color:#099}
+.CodeRay .class-variable{color:#369}
+.CodeRay .decorator{color:#b0b}
+.CodeRay .definition{color:#099}
+.CodeRay .delimiter{color:#000}
+.CodeRay .doc{color:#970}
+.CodeRay .doctype{color:#34b}
+.CodeRay .doc-string{color:#d42}
+.CodeRay .escape{color:#666}
+.CodeRay .entity{color:#800}
+.CodeRay .error{color:#808}
+.CodeRay .exception{color:inherit}
+.CodeRay .filename{color:#099}
+.CodeRay .function{color:#900;font-weight:bold}
+.CodeRay .global-variable{color:#008080}
+.CodeRay .hex{color:#058}
+.CodeRay .integer,.CodeRay .float{color:#099}
+.CodeRay .include{color:#555}
+.CodeRay .inline{color:#000}
+.CodeRay .inline .inline{background:#ccc}
+.CodeRay .inline .inline .inline{background:#bbb}
+.CodeRay .inline .inline-delimiter{color:#d14}
+.CodeRay .inline-delimiter{color:#d14}
+.CodeRay .important{color:#555;font-weight:bold}
+.CodeRay .interpreted{color:#b2b}
+.CodeRay .instance-variable{color:#008080}
+.CodeRay .label{color:#970}
+.CodeRay .local-variable{color:#963}
+.CodeRay .octal{color:#40e}
+.CodeRay .predefined{color:#369}
+.CodeRay .preprocessor{color:#579}
+.CodeRay .pseudo-class{color:#555}
+.CodeRay .directive{font-weight:bold}
+.CodeRay .type{font-weight:bold}
+.CodeRay .predefined-type{color:inherit}
+.CodeRay .reserved,.CodeRay .keyword {color:#000;font-weight:bold}
+.CodeRay .key{color:#808}
+.CodeRay .key .delimiter{color:#606}
+.CodeRay .key .char{color:#80f}
+.CodeRay .value{color:#088}
+.CodeRay .regexp .delimiter{color:#808}
+.CodeRay .regexp .content{color:#808}
+.CodeRay .regexp .modifier{color:#808}
+.CodeRay .regexp .char{color:#d14}
+.CodeRay .regexp .function{color:#404;font-weight:bold}
+.CodeRay .string{color:#d20}
+.CodeRay .string .string .string{background:#ffd0d0}
+.CodeRay .string .content{color:#d14}
+.CodeRay .string .char{color:#d14}
+.CodeRay .string .delimiter{color:#d14}
+.CodeRay .shell{color:#d14}
+.CodeRay .shell .delimiter{color:#d14}
+.CodeRay .symbol{color:#990073}
+.CodeRay .symbol .content{color:#a60}
+.CodeRay .symbol .delimiter{color:#630}
+.CodeRay .tag{color:#008080}
+.CodeRay .tag-special{color:#d70}
+.CodeRay .variable{color:#036}
+.CodeRay .insert{background:#afa}
+.CodeRay .delete{background:#faa}
+.CodeRay .change{color:#aaf;background:#007}
+.CodeRay .head{color:#f8f;background:#505}
+.CodeRay .insert .insert{color:#080}
+.CodeRay .delete .delete{color:#800}
+.CodeRay .change .change{color:#66f}
+.CodeRay .head .head{color:#f4f}</style><link href="reveal.js-3.6.0/lib/css/zenburn.css" rel="stylesheet" /><script>document.write( '<link rel="stylesheet" href="reveal.js-3.6.0/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Kommunikation nicht nur für Software Entwickler</h1><div class="preamble"><script type="text/javascript">
     window.addEventListener("load", function() {
 
         revealDiv = document.querySelector("body div.reveal")
@@ -12,29 +100,29 @@
     <span class="element">#mathemacampus</span>
     <span class="element">#communication</span>
 </div></div></section>
-<section><section data-background-image="./images/axe.jpg" data-background-size="contain"><div class="quoteblock"><blockquote>Komm wir essen Opa</blockquote></div><div class="quoteblock"><blockquote>Ok, ich hole das Beil</blockquote></div><aside class="notes"><div class="paragraph"><p>"Ich weiß nicht ob dauerhaft Home Office was für mich ist, ich habe das nie so gemacht"
+<section><section data-background-image="images/axe.jpg" data-background-size="contain"><div class="quoteblock"><blockquote>Komm wir essen Opa</blockquote></div><div class="quoteblock"><blockquote>Ok, ich hole das Beil</blockquote></div><aside class="notes"><div class="paragraph"><p>"Ich weiß nicht ob dauerhaft Home Office was für mich ist, ich habe das nie so gemacht"
 Beinahe den Job nicht bekommen, da Ollie dachte ich will da nur was ausprobieren.</p></div>
 <div class="paragraph"><p>Teams</p></div>
 <div class="paragraph"><p>Beziehungen</p></div>
-<div class="paragraph"><p>Chef/PL von Dingen überzeugen</p></div></aside></section><section id="_erfahrung_experte"><h2>Erfahrung &#x22A2;&#x0338; Experte</h2></section><section id="_falsches_werkzeug" data-background-image="./images/screw.jpg" data-background-size="contain"><h2>Falsches Werkzeug</h2>
+<div class="paragraph"><p>Chef/PL von Dingen überzeugen</p></div></aside></section><section id="_erfahrung_experte"><h2>Erfahrung &#x22A2;&#x0338; Experte</h2></section><section id="_falsches_werkzeug" data-background-image="images/screw.jpg" data-background-size="contain"><h2>Falsches Werkzeug</h2>
 <aside class="notes"><div class="paragraph"><p>Wir haben das falsche Werkzeug.
 Wir haben das falsche Modell vom Problem.</p></div>
 <div class="paragraph"><p>Computer verhalten sich immer deterministisch.</p></div>
 <div class="paragraph"><p>Menschen sind zustandsbehaftet.
-Und das in einem massiv parallelen Kontext.</p></div></aside></section><section data-background-image="./images/stackoverflow.png" data-background-size="contain">
+Und das in einem massiv parallelen Kontext.</p></div></aside></section><section data-background-image="images/stackoverflow.png" data-background-size="contain">
 <aside class="notes"><div class="paragraph"><p>Leider nein.</p></div>
 <div class="paragraph"><p>git reset --hard funktioniert leider auch nicht.</p></div></aside></section></section>
 <section><section id="_das_klassische_model"><h2>Das klassische Model</h2><aside class="notes"><div class="paragraph"><p>Wir müssen die Kommunikation als solche verbessern.</p></div>
 <div class="paragraph"><p>Es gibt nur begrenzte Mittel, wie wir Kommunikation direkt steuern können.</p></div>
 <div class="paragraph"><p>Laut und deutlich sprechen.
 Kurze einfache Sätze.</p></div></aside></section><section><div class="quoteblock"><blockquote>Wenn man sieht, dass eine Sache genetisch versaut ist, kann man das mit Prügel allein auch nicht korrigieren.</blockquote><div class="attribution"><cite>Auf dem Kreuzzug ins Glück von den Toten Hosen</cite><br />&#8212; Gerhard Polt</div></div>
-<aside class="notes"><div class="paragraph"><p>Oder halt durch Gewalt.</p></div></aside></section><section id="_feedback_sandwich" data-background-image="./images/burger.jpg" data-background-size="contain"><h2>Feedback Sandwich</h2>
+<aside class="notes"><div class="paragraph"><p>Oder halt durch Gewalt.</p></div></aside></section><section id="_feedback_sandwich" data-background-image="images/burger.jpg" data-background-size="contain"><h2>Feedback Sandwich</h2>
 <aside class="notes"><div class="paragraph"><p>Wenn ich merke, dass das lecker Feedback nur das vergammelte Fleisch übertönen soll, werde ich bald kein Feedback mehr annehmen.</p></div></aside></section><section id="_fakten_fakten_fakten"><h2>Fakten, Fakten, Fakten</h2><aside class="notes"><div class="paragraph"><p>Habe ich lange und oft versucht.</p></div>
 <div class="paragraph"><p>Funktioniert überhaupt nicht.</p></div>
 <div class="paragraph"><p>Aber es führt zur Wurzel des Problems. Es geht nämlich nicht um Fakten.</p></div></aside></section></section>
-<section><section data-background-image="./images/iceberg-wo.jpg" data-background-size="contain"><aside class="notes"><div class="paragraph"><p>Es ist ziemlich egal, was ich im oberen Bereich mache.</p></div>
+<section><section data-background-image="images/iceberg-wo.jpg" data-background-size="contain"><aside class="notes"><div class="paragraph"><p>Es ist ziemlich egal, was ich im oberen Bereich mache.</p></div>
 <div class="paragraph"><p>Die Bewegung wird durch die Masse unter Wasser und die Meeresströmung bestimmt.</p></div>
-<div class="paragraph"><p>Allenfalls kippt der Eisberg. Alles was ich glaubte erreicht zu haben ist weg und ich stehe vor einer völlig neuen Situation.</p></div></aside></section><section data-background-image="./images/iceberg.jpg" data-background-size="contain">
+<div class="paragraph"><p>Allenfalls kippt der Eisberg. Alles was ich glaubte erreicht zu haben ist weg und ich stehe vor einer völlig neuen Situation.</p></div></aside></section><section data-background-image="images/iceberg.jpg" data-background-size="contain">
 <aside class="notes"><div class="paragraph"><p>Der untere Teil des Eisbergs besteht aus zwei Dingen:</p></div>
 <div class="paragraph"><p>Psychologie: Die nicht trivialen Zusammenhänge, die bestimmen wie mein Gegenüber auf meine Kommunikationsversuche reagiert.</p></div>
 <div class="paragraph"><p>Wenn ich ein gutes Segelboot bauen will muss ich mich sehr viel mit Strömungsdynamik beschäftigen.
@@ -42,7 +130,7 @@ Psychologie ist die Strömungsmechanik der Kommunikation.</p></div>
 <div class="paragraph"><p>Der zweite Teil ist Selbstmanagement</p></div>
 <div class="paragraph"><p>Nur wenn ich weiß, was ich kann und will, kann ich das gezielt und sinnvoll in der Kommunikation einsetzen.</p></div>
 <div class="paragraph"><p>Und ich habe die Möglichkeit meine Fähigkeiten und Möglichkeiten gezielt zu erweitern.</p></div></aside></section></section>
-<section><section id="_selbstmanagement"><h2>Selbstmanagement</h2></section><section id="_just_say_no" data-background-image="./images/no.jpg" data-background-size="contain"><h2>Just say No!</h2>
+<section><section id="_selbstmanagement"><h2>Selbstmanagement</h2></section><section id="_just_say_no" data-background-image="images/no.jpg" data-background-size="contain"><h2>Just say No!</h2>
 <aside class="notes"><div class="paragraph"><p>Habt ihr ein Problem damit Nein zu sagen?</p></div>
 <div class="paragraph"><p>Konkret:</p></div>
 <div class="paragraph"><p>Ihr seid Teil eines richtig coolen Projektes.</p></div>
@@ -59,9 +147,9 @@ Psychologie ist die Strömungsmechanik der Kommunikation.</p></div>
 <div class="paragraph"><p>Monatlich wiederholen.</p></div>
 <div class="paragraph"><p>Wenn stabil einmal im Jahr, oder wenn ihr merkt, dass sich was verändert</p></div>
 <div class="paragraph"><p>Ziel: Verbesserte Fähigkeit schwere Entscheidungen zu treffen und zu kommunizieren.</p></div></aside></section><section id="_noch_ne_aufgabe"><h2>Noch ne Aufgabe</h2><div class="paragraph"><p>Wenn ihr euch euch unwohl fühlt in einer Situation:</p></div>
-<div class="paragraph"><p>Welche Ziele/Werte kollidieren gerade? Welche sind euch wichtiger?</p></div></section><section data-background-image="./images/7habits.jpg" data-background-size="contain"></section></section>
-<section><section data-background-image="./images/hand.jpg" data-background-size="contain"><aside class="notes"><div class="paragraph"><p>Wer ist hier, weil er muss, und nicht weil er es möchte?</p></div>
-<div class="paragraph"><p>Wer war schon mal bei einem Event wo er hin musste, obwohl er nicht wollte?</p></div></aside></section><section id="_fake_fact" data-background-image="./images/trump.jpg" data-background-size="contain"><h2>Fake Fact!</h2>
+<div class="paragraph"><p>Welche Ziele/Werte kollidieren gerade? Welche sind euch wichtiger?</p></div></section><section data-background-image="images/7habits.jpg" data-background-size="contain"></section></section>
+<section><section data-background-image="images/hand.jpg" data-background-size="contain"><aside class="notes"><div class="paragraph"><p>Wer ist hier, weil er muss, und nicht weil er es möchte?</p></div>
+<div class="paragraph"><p>Wer war schon mal bei einem Event wo er hin musste, obwohl er nicht wollte?</p></div></aside></section><section id="_fake_fact" data-background-image="images/trump.jpg" data-background-size="contain"><h2>Fake Fact!</h2>
 <aside class="notes"><div class="paragraph"><p>Wenn wir nicht von Entführung sprechen, habt ihr eine Wahl</p></div>
 <div class="paragraph"><p>Und ihr habt sie getroffen, weil sie die war, die euren Zielen am besten entspricht.</p></div>
 <div class="paragraph"><p>Ihr hättet gerne andere Optionen gehabt, die standen aber nicht zur Wahl!</p></div></aside></section><section><div class="quoteblock"><blockquote>God, grant me the serenity to accept the things I cannot change,
@@ -72,7 +160,7 @@ And wisdom to know the difference.</blockquote><div class="attribution">&#8212; 
 <div class="paragraph"><p>Wir kontrollieren ob wir etwas als Angriff oder Beleidigung betrachten.</p></div>
 <div class="paragraph"><p>Wir kontrollieren NICHT wie jemand auf das reagiert was wir sagen!
 Aber wir können kontrollieren, wie wir auf  seine/ihre Reaktion reagieren.</p></div>
-<div class="paragraph"><p>Es hilft nicht über Dinge zu jammern die man nicht ändern kann.</p></div></aside></section><section data-background-image="./images/circle.jpg" data-background-size="contain">
+<div class="paragraph"><p>Es hilft nicht über Dinge zu jammern die man nicht ändern kann.</p></div></aside></section><section data-background-image="images/circle.jpg" data-background-size="contain">
 <aside class="notes"><div class="paragraph"><p>Aktives verhalten vergrößert den Circle of Influence. Passives verringert ihn.
 Wenn ein schwieriges Gespräch ansteht gibt es zwei Strategien:</p></div>
 <div class="paragraph"><p>Abwarten und hoffen, dass nichts passiert.
@@ -82,25 +170,25 @@ Aktiv werden und euren Job sichern (evtl. in dem ihr einen neuen sucht)
 Oder warten, bis ihr die Kündigung bekommt (evtl. dabei jammern)</p></div></aside></section><section id="_aufgabe_2"><h2>Aufgabe</h2><div class="paragraph"><p>Welche Entscheidung habt ihr heute getroffen?</p></div>
 <div class="paragraph"><p>Welches ist die aktive, welches die passive Option?</p></div>
 <div class="paragraph"><p>Für welche habt ihr euch entschieden?</p></div>
-<div class="paragraph"><p>Habt ihr die Entscheidung mit ganzer Energie verfolgt?</p></div></section><section data-background-image="./images/corssen.jpg" data-background-size="contain"></section></section>
+<div class="paragraph"><p>Habt ihr die Entscheidung mit ganzer Energie verfolgt?</p></div></section><section data-background-image="images/corssen.jpg" data-background-size="contain"></section></section>
 <section><section id="_plant_die_katastrophen"><h2>Plant die Katastrophen</h2><aside class="notes"><div class="paragraph"><p>Aktiv zu werden macht Angst.</p></div>
 <div class="paragraph"><p>Überlegt euch die schlimmsten Dinge, vor denen ihr Angst habt.
 Bewertet welche davon realistisch sind.
 Überlegt was ihr tun könnt um diese Ereignisse zu vermeiden
 Was könnt ihr tun, um den Schaden zu minimieren.</p></div>
-<div class="paragraph"><p>Was kostet es euch wenn ihr passiv bleibt.</p></div></aside></section><section data-background-image="./images/hadfield.jpg" data-background-size="contain"></section><section data-background-image="./images/tim-ferris.png" data-background-size="contain"></section><section id="_nur_wer_fest_steht_kann_andere_bewegen"><h2>Nur wer fest steht kann andere bewegen</h2><aside class="notes"><div class="paragraph"><p>Es geht fast nie um reinen Informationsaustausch.</p></div>
+<div class="paragraph"><p>Was kostet es euch wenn ihr passiv bleibt.</p></div></aside></section><section data-background-image="images/hadfield.jpg" data-background-size="contain"></section><section data-background-image="images/tim-ferris.png" data-background-size="contain"></section><section id="_nur_wer_fest_steht_kann_andere_bewegen"><h2>Nur wer fest steht kann andere bewegen</h2><aside class="notes"><div class="paragraph"><p>Es geht fast nie um reinen Informationsaustausch.</p></div>
 <div class="paragraph"><p>Fast immer darum eine Reaktion zu erziehlen.</p></div></aside></section></section>
-<section><section id="_psychologie"><h2>Psychologie</h2></section><section id="_die_spinnen_die_menschen" data-background-image="./images/obelix.jpg" data-background-size="contain"><h2>Die spinnen, die Menschen</h2>
+<section><section id="_psychologie"><h2>Psychologie</h2></section><section id="_die_spinnen_die_menschen" data-background-image="images/obelix.jpg" data-background-size="contain"><h2>Die spinnen, die Menschen</h2>
 <aside class="notes"><div class="paragraph"><p>10 Teller 1a Qualität erzielen einen besseren Preis als 12 Teller, wobei 2 leichte Schäden haben.</p></div>
 <div class="paragraph"><p>Menschen zahlen weniger um etwas zu kaufen als sie verlangen um es zurück zu bekommen.</p></div>
 <div class="paragraph"><p>Wenn ihr also jemanden überzeugen wollt, helfen logische Argumente nicht.
-Offensichtlichen Blödsinn zu erzählen macht die Sache auch nicht einfacher, aber selbst damit kann man amerikanischer Präsident werden.</p></div></aside></section><section data-background-image="./images/denken.jpg" data-background-size="contain"></section><section id="_thinking_fast_and_slow" data-background-image="./images/brain.jpg" data-background-size="contain"><h2>Thinking fast and slow</h2>
+Offensichtlichen Blödsinn zu erzählen macht die Sache auch nicht einfacher, aber selbst damit kann man amerikanischer Präsident werden.</p></div></aside></section><section data-background-image="images/denken.jpg" data-background-size="contain"></section><section id="_thinking_fast_and_slow" data-background-image="images/brain.jpg" data-background-size="contain"><h2>Thinking fast and slow</h2>
 <aside class="notes"><div class="paragraph"><p>Menschen können rational denken. Der wissenschaftliche Fortschritt und funktionierende Software ist der Beleg.
 Aber jeder Software Entwickler weiß: Das ist schwierig, anstrengend und langsam!</p></div>
 <div class="paragraph"><p>Unsere Evolution hat in einer gefährlichen Umgebung statt gefunden.
 Wenn man im Wald ein Rascheln und ein Grummeln hört, ist eine gründliche Analyse eine tödliche Reaktion.</p></div>
 <div class="paragraph"><p>Stattdessen: soforte, direkte Reaktion &#8658; Flucht, Angriff oder tot stellen.</p></div>
-<div class="paragraph"><p>Die gleichen Reaktionsmuster greifen auch heute noch in der täglichen Kommunikation</p></div></aside></section><section data-background-image="./images/thinking.jpg" data-background-size="contain"></section></section>
+<div class="paragraph"><p>Die gleichen Reaktionsmuster greifen auch heute noch in der täglichen Kommunikation</p></div></aside></section><section data-background-image="images/thinking.jpg" data-background-size="contain"></section></section>
 <section><section id="_apropos_kommunikation"><h2>Apropos Kommunikation</h2></section><section><div class="quoteblock"><blockquote>Du hast da einen Fehler gemacht.</blockquote></div>
 <aside class="notes"><div class="paragraph"><p>Ist diese Aussage richtig? &#8658; egal, dafür braucht man das langsame System.
 Ist diese Aussage relevant? &#8658; egal, dafür braucht man das langsame System.
@@ -118,19 +206,19 @@ Gibt es eine Chance, dass dies eine Angriff auf mich ist? Aber JA! &#8658; Angri
 Hört nicht zu um zu antworten.</p></div></aside></section></section>
 <section><section id="_konflikte"><h2>Konflikte</h2></section><section id="_fragt_und_hrt_zu_um_zu_verstehen"><h2>Fragt und hört zu, um zu verstehen</h2><aside class="notes"><div class="paragraph"><p>Der interessiert sich für mich (positiv)</p></div></aside></section><section id="_wiederholt_was_ihr_verstanden_habt"><h2>Wiederholt was ihr verstanden habt</h2><aside class="notes"><div class="paragraph"><p>Er versteht mich! (positiv)</p></div>
 <div class="paragraph"><p>Oder, nein, so habe ich das nicht gemeint</p></div></aside></section><section id="_benennt_die_emotionen"><h2>Benennt die Emotionen</h2><div class="quoteblock"><blockquote>Du bist total wütend, oder?</blockquote></div>
-<aside class="notes"><div class="paragraph"><p>Er versteht mich!</p></div></aside></section><section data-background-image="./images/scales.jpg" data-background-size="contain">
+<aside class="notes"><div class="paragraph"><p>Er versteht mich!</p></div></aside></section><section data-background-image="images/scales.jpg" data-background-size="contain">
 <aside class="notes"><div class="paragraph"><p>Die Psyche ist wie eine Waagschale, die positive mit negativen Erfahrungen vergleicht.
 Negative sind ungefähr 5x so schwer wie positive</p></div>
 <div class="paragraph"><p>Man vergleiche das mit dem Feedback Sandwich.</p></div></aside></section><section id="_chance_auf_gemeinsame_lsungen"><h2>Chance auf gemeinsame Lösungen</h2><aside class="notes"><div class="paragraph"><p>Ihr versteht, was euer gegenüber will.
 Er ist euch gegüber in positiver Stimmung.
-Ihr wisst, was ihr eigentlich wollt (die Ziele).</p></div></aside></section><section data-background-image="./images/listen.jpg" data-background-size="contain"></section><section data-background-image="./images/difficult.jpg" data-background-size="contain"></section></section>
+Ihr wisst, was ihr eigentlich wollt (die Ziele).</p></div></aside></section><section data-background-image="images/listen.jpg" data-background-size="contain"></section><section data-background-image="images/difficult.jpg" data-background-size="contain"></section></section>
 <section><section id="_noch_zweifel_ob_das_funktioniert"><h2>Noch Zweifel ob das funktioniert?</h2><div class="quoteblock"><blockquote>So – you say that so far I don’t see any reason why my mum didn’t abort me. Want to email some more so we can get to know each other?</blockquote><div class="attribution">&#8212; http://inews.co.uk/opinion/comment/i-deal-nasty-comments-online/</div></div><aside class="notes"><div class="paragraph"><p>Eine Frau bekommt übelsten Hasskommentar.
-Antwortet freundlich. Bedankt sich für das Feedback und fragt freundlich und interessiert nach Hintergründen.</p></div></aside></section><section data-background-image="./images/klan.png" data-background-size="contain">
+Antwortet freundlich. Bedankt sich für das Feedback und fragt freundlich und interessiert nach Hintergründen.</p></div></aside></section><section data-background-image="images/klan.png" data-background-size="contain">
 <aside class="notes"><div class="paragraph"><p>Immer noch?
 Ein schwarzer Freundet sich mit Klansmen an.
 Er versucht sie NICHT zu überzeugen und tut es gerade deshalb.</p></div></aside></section></section>
-<section><section id="_aufgabe_3"><h2>Aufgabe</h2><div class="paragraph"><p>Lobt jemanden.</p></div></section><section id="_aufgabe_4"><h2>Aufgabe</h2><div class="paragraph"><p>Wenn euch etwas nicht gefällt, findet heraus was Verursacher darüber denken.</p></div></section><section><div class="quoteblock"><blockquote>Mir ist nicht ganz klar geworden warum Psychologie wichtig ist für die Kommunikation, kannst du mir das noch mal erläutern?</blockquote></div></section><section id="_aufgabe_5"><h2>Aufgabe</h2><div class="paragraph"><p>Versucht es mit Kindern</p></div></section><section data-background-image="./images/codinghorror.png" data-background-size="contain">
-<aside class="notes">Jeff Atwood schreibt darüber, wie er mit seinen Kindern spricht.</aside></section><section data-background-image="./images/oatmeal.png" data-background-size="contain">
+<section><section id="_aufgabe_3"><h2>Aufgabe</h2><div class="paragraph"><p>Lobt jemanden.</p></div></section><section id="_aufgabe_4"><h2>Aufgabe</h2><div class="paragraph"><p>Wenn euch etwas nicht gefällt, findet heraus was der Verursacher darüber denken.</p></div></section><section id="_aufgabe_5"><h2>Aufgabe</h2><div class="paragraph"><p>Versucht es mit Kindern</p></div></section><section data-background-image="images/codinghorror.png" data-background-size="contain">
+<aside class="notes">Jeff Atwood schreibt darüber, wie er mit seinen Kindern spricht.</aside></section><section data-background-image="images/oatmeal.png" data-background-size="contain">
 <aside class="notes">The Oatmeal hat einen herrlichen cartoon, warum Argumente und Fakten nicht funktionieren</aside></section></section>
 <section id="_resourcen"><h2>Resourcen</h2><div class="reference"><a href="http://amzn.to/2xniDmq">7 Habits Of Highly Effective People <br> Stephen R Covey - http://amzn.to/2xniDmq</a>
 </div><div class="reference"><a href="http://amzn.to/2wzojgf">Das Corssen-Prinzip Jens Corssen - http://amzn.to/2wzojgf</a>
@@ -157,10 +245,10 @@ Er versucht sie NICHT zu überzeugen und tut es gerade deshalb.</p></div></aside
     
     <img src="images/jug_final_small.png" style="vertical-align: middle; border:none;" width="150"/>
     </p></div>
-<div class="paragraph"><p><a href="http://bit.ly/jsch-comm">Folien online: http://bit.ly/jsch-comm</a></p></div></section></div></div><script src="reveal.js/lib/js/head.min.js"></script><script src="reveal.js/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+<div class="paragraph"><p><a href="http://bit.ly/jsch-comm">Folien online: http://bit.ly/jsch-comm</a></p></div></section></div></div><script src="reveal.js-3.6.0/lib/js/head.min.js"></script><script src="reveal.js-3.6.0/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
 Reveal.initialize({
   // Display controls in the bottom right corner
-  controls: false,
+  controls: true,
   // Display a presentation progress bar
   progress: true,
   // Display the page number of the current slide
@@ -215,11 +303,11 @@ Reveal.initialize({
   // The "normal" size of the presentation, aspect ratio will be preserved
   // when the presentation is scaled to fit different resolutions. Can be
   // specified using percentage units.
-  width: 960,
-  height: 700,
+  width: 1280,
+  height: 720,
 
   // Factor of the display size that should remain empty around the content
-  margin: 0.1,
+  margin: 0,
 
   // Bounds for smallest/largest possible scale to apply to content
   minScale: 0.2,
@@ -227,11 +315,11 @@ Reveal.initialize({
 
   // Optional libraries used to extend on reveal.js
   dependencies: [
-      { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
-      { src: 'reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-      { src: 'reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
-      { src: 'reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
-      { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
-      { src: 'reveal.js/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+      { src: 'reveal.js-3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js-3.6.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js-3.6.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'reveal.js-3.6.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js-3.6.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
   ]
 });</script></body></html>

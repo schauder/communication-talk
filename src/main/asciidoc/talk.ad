@@ -1,0 +1,558 @@
+= Kommunikation nicht nur für Software Entwickler
+:revealjs_customtheme: reveal.js/css/theme/schauderhaft.css
+:icons: font
+:twitter-tag: @jensschauder
+:conference-tag: #mathemacampus
+:talk-tag: #communication
+:slide-link: http://bit.ly/jsch-comm
+:linkattrs:
+
+include::footer.ad[]
+
+== !
+
+image::axe.jpg[background, size=contain]
+
+[quote]
+Komm wir essen Opa
+
+[quote]
+Ok, ich hole das Beil
+
+
+[NOTE.speaker]
+====
+"Ich weiß nicht ob dauerhaft Home Office was für mich ist, ich habe das nie so gemacht"
+Beinahe den Job nicht bekommen, da Ollie dachte ich will da nur was ausprobieren.
+
+Teams
+
+Beziehungen
+
+Chef/PL von Dingen überzeugen
+====
+
+=== Erfahrung &#x22A2;&#x0338; Experte
+
+
+=== Falsches Werkzeug
+
+image::screw.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+Wir haben das falsche Werkzeug.
+Wir haben das falsche Modell vom Problem.
+
+Computer verhalten sich immer deterministisch.
+
+Menschen sind zustandsbehaftet.
+Und das in einem massiv parallelen Kontext.
+
+====
+
+=== !
+
+image::stackoverflow.png[background, size=contain]
+
+
+[NOTE.speaker]
+====
+Leider nein.
+
+git reset --hard funktioniert leider auch nicht.
+====
+
+
+== Das klassische Model
+
+[NOTE.speaker]
+====
+Wir müssen die Kommunikation als solche verbessern.
+
+Es gibt nur begrenzte Mittel, wie wir Kommunikation direkt steuern können.
+
+Laut und deutlich sprechen.
+Kurze einfache Sätze.
+====
+
+=== !
+
+[quote, Gerhard Polt, Auf dem Kreuzzug ins Glück von den Toten Hosen]
+Wenn man sieht, dass eine Sache genetisch versaut ist, kann man das mit Prügel allein auch nicht korrigieren.
+
+[NOTE.speaker]
+====
+Oder halt durch Gewalt.
+====
+
+=== Feedback Sandwich
+
+image::burger.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+Wenn ich merke, dass das lecker Feedback nur das vergammelte Fleisch übertönen soll, werde ich bald kein Feedback mehr annehmen.
+====
+
+=== Fakten, Fakten, Fakten
+
+[NOTE.speaker]
+====
+Habe ich lange und oft versucht.
+
+Funktioniert überhaupt nicht.
+
+Aber es führt zur Wurzel des Problems. Es geht nämlich nicht um Fakten.
+====
+
+== !
+
+image::iceberg-wo.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+Es ist ziemlich egal, was ich im oberen Bereich mache.
+
+Die Bewegung wird durch die Masse unter Wasser und die Meeresströmung bestimmt.
+
+Allenfalls kippt der Eisberg. Alles was ich glaubte erreicht zu haben ist weg und ich stehe vor einer völlig neuen Situation.
+====
+
+=== !
+
+image::iceberg.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+Der untere Teil des Eisbergs besteht aus zwei Dingen:
+
+Psychologie: Die nicht trivialen Zusammenhänge, die bestimmen wie mein Gegenüber auf meine Kommunikationsversuche reagiert.
+
+Wenn ich ein gutes Segelboot bauen will muss ich mich sehr viel mit Strömungsdynamik beschäftigen.
+Psychologie ist die Strömungsmechanik der Kommunikation.
+
+Der zweite Teil ist Selbstmanagement
+
+Nur wenn ich weiß, was ich kann und will, kann ich das gezielt und sinnvoll in der Kommunikation einsetzen.
+
+Und ich habe die Möglichkeit meine Fähigkeiten und Möglichkeiten gezielt zu erweitern.
+====
+
+== Selbstmanagement
+
+=== Just say No!
+
+image::no.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+Habt ihr ein Problem damit Nein zu sagen?
+
+Konkret:
+
+Ihr seid Teil eines richtig coolen Projektes.
+
+Ihr seid der einzige der die Fähigkeiten hat die Bugs zeitnah zu fixen.
+
+Ihr schiebt mächtig Überstunden weil es so viele Bug Reports gibt, die alle ganz dringend sind.
+
+Kennt jemand solche Situationen?
+
+Dies sind Zeichen von inneren Konflikten.
+
+=== Euer Selbstbild ist in Gefahr
+
+Was sind eure Ziele/Wertvorstellungen?
+
+Warum fühlt ihr euch in der Situation nicht wohl?
+
+Vielleicht:
+
+* Guter Teamplayer
+
+* Guter Vater/Mutter
+
+* Brötchenverdiener
+
+* Freizeit genießen
+
+* Projekt zum Erfolg führen
+====
+
+=== Aufgabe
+
+Ziele und Wertvorstellungen priorisieren.
+
+[NOTE.speaker]
+====
+Aufschreiben.
+
+Monatlich wiederholen.
+
+Wenn stabil einmal im Jahr, oder wenn ihr merkt, dass sich was verändert
+
+Ziel: Verbesserte Fähigkeit schwere Entscheidungen zu treffen und zu kommunizieren.
+====
+
+=== Noch ne Aufgabe
+
+Wenn ihr euch euch unwohl fühlt in einer Situation:
+
+Welche Ziele/Werte kollidieren gerade? Welche sind euch wichtiger?
+
+
+=== !
+
+image::7habits.jpg[background, size=contain]
+
+== !
+
+image::hand.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+Wer ist hier, weil er muss, und nicht weil er es möchte?
+
+Wer war schon mal bei einem Event wo er hin musste, obwohl er nicht wollte?
+====
+
+=== Fake Fact!
+
+image::trump.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+Wenn wir nicht von Entführung sprechen, habt ihr eine Wahl
+
+Und ihr habt sie getroffen, weil sie die war, die euren Zielen am besten entspricht.
+
+Ihr hättet gerne andere Optionen gehabt, die standen aber nicht zur Wahl!
+====
+
+=== !
+
+[quote, Serenety Prayer]
+God, grant me the serenity to accept the things I cannot change,
+Courage to change the things I can,
+And wisdom to know the difference.
+
+
+[NOTE.speaker]
+====
+
+Der Unterschied ist nicht immer offensichtlich, aber extrem wichtig für die erfolgreiche Kommunikation.
+
+Wir kontrollieren was und wie wir etwas sagen.
+
+Wir kontrollieren ob wir etwas als Angriff oder Beleidigung betrachten.
+
+Wir kontrollieren NICHT wie jemand auf das reagiert was wir sagen!
+Aber wir können kontrollieren, wie wir auf  seine/ihre Reaktion reagieren.
+
+Es hilft nicht über Dinge zu jammern die man nicht ändern kann.
+====
+
+=== !
+
+image::circle.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+Aktives verhalten vergrößert den Circle of Influence. Passives verringert ihn.
+Wenn ein schwieriges Gespräch ansteht gibt es zwei Strategien:
+
+Abwarten und hoffen, dass nichts passiert.
+Selbst bestimmen, wann und wie das Gespräch statt findet.
+
+Wenn es eurem Arbeitgeber schlecht geht habt ihr zwei Möglichkeiten
+Aktiv werden und euren Job sichern (evtl. in dem ihr einen neuen sucht)
+Oder warten, bis ihr die Kündigung bekommt (evtl. dabei jammern)
+====
+
+=== Aufgabe
+
+Welche Entscheidung habt ihr heute getroffen?
+
+Welches ist die aktive, welches die passive Option?
+
+Für welche habt ihr euch entschieden?
+
+Habt ihr die Entscheidung mit ganzer Energie verfolgt?
+
+=== !
+
+image::corssen.jpg[background, size=contain]
+
+== Plant die Katastrophen
+
+// Mushroom cloud
+
+[NOTE.speaker]
+====
+Aktiv zu werden macht Angst.
+
+Überlegt euch die schlimmsten Dinge, vor denen ihr Angst habt.
+Bewertet welche davon realistisch sind.
+Überlegt was ihr tun könnt um diese Ereignisse zu vermeiden
+Was könnt ihr tun, um den Schaden zu minimieren.
+
+Was kostet es euch wenn ihr passiv bleibt.
+====
+
+=== !
+
+image::hadfield.jpg[background, size=contain]
+
+=== !
+
+image::tim-ferris.png[background, size=contain]
+
+=== Nur wer fest steht kann andere bewegen
+
+[NOTE.speaker]
+====
+Es geht fast nie um reinen Informationsaustausch.
+
+Fast immer darum eine Reaktion zu erziehlen.
+====
+
+== Psychologie
+
+=== Die spinnen, die Menschen
+
+image::obelix.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+10 Teller 1a Qualität erzielen einen besseren Preis als 12 Teller, wobei 2 leichte Schäden haben.
+
+Menschen zahlen weniger um etwas zu kaufen als sie verlangen um es zurück zu bekommen.
+
+Wenn ihr also jemanden überzeugen wollt, helfen logische Argumente nicht.
+Offensichtlichen Blödsinn zu erzählen macht die Sache auch nicht einfacher, aber selbst damit kann man amerikanischer Präsident werden.
+====
+
+=== !
+
+image::denken.jpg[background, size=contain]
+
+
+=== Thinking fast and slow
+
+image::brain.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+Menschen können rational denken. Der wissenschaftliche Fortschritt und funktionierende Software ist der Beleg.
+Aber jeder Software Entwickler weiß: Das ist schwierig, anstrengend und langsam!
+
+Unsere Evolution hat in einer gefährlichen Umgebung statt gefunden.
+Wenn man im Wald ein Rascheln und ein Grummeln hört, ist eine gründliche Analyse eine tödliche Reaktion.
+
+Stattdessen: soforte, direkte Reaktion => Flucht, Angriff oder tot stellen.
+
+Die gleichen Reaktionsmuster greifen auch heute noch in der täglichen Kommunikation
+====
+
+=== !
+
+image::thinking.jpg[background, size=contain]
+
+== Apropos Kommunikation
+
+=== !
+
+[quote]
+Du hast da einen Fehler gemacht.
+
+[NOTE.speaker]
+====
+Ist diese Aussage richtig? => egal, dafür braucht man das langsame System.
+Ist diese Aussage relevant? => egal, dafür braucht man das langsame System.
+Gibt es eine Chance, dass dies eine Angriff auf mich ist? Aber JA! => Angriff, Flucht, Verteidigung
+
+=> Du machst doch auch Fehler!
+=> Mach du es doch besser!
+=> Gar nicht!
+====
+
+=== Ich Botschaften
+
+[quote]
+Ich glaube du hast da einen Fehler gemacht.
+
+[NOTE.speaker]
+====
+Da steht zwar "Ich", es ist aber trotzdem keine Ich Botschaft.
+====
+
+=== Zweiter Versuch
+
+[quote]
+Das verwirrt mich. Ist es nicht einfacher das so zu machen?
+
+[NOTE.speaker]
+====
+Viel weniger Chance des Gegenübers das als Angriff zu interpretieren. Wir können es aber nicht kontrollieren (s.o.)
+
+Ja, das ist eine ganz andere Aussage.
+10% der Arbeit ist es diese Aussage zu treffen.
+====
+
+=== Seid ehrlich!
+
+[NOTE.speaker]
+====
+90% der Arbeit ist es diese Aussage zu meinen!
+
+Es gibt dem Gegenüber eine Chance mit euch zu kommunizieren.
+====
+
+=== !
+
+[quote]
+Ich verstehe nicht warum dieser Teil funktioniert. Kannst du es mir erklären?
+
+[NOTE.speaker]
+====
+Vermeidet "Warum". "Warum" klingt wie eine Aufforderung zur Rechtfertigung.
+
+Fragt nicht um den Gegnüber auf euer Ziel hinzuweisen.
+Hört nicht zu um zu antworten.
+
+====
+
+== Konflikte
+
+=== Fragt und hört zu, um zu verstehen
+
+[NOTE.speaker]
+====
+Der interessiert sich für mich (positiv)
+====
+
+=== Wiederholt was ihr verstanden habt
+
+[NOTE.speaker]
+====
+Er versteht mich! (positiv)
+
+Oder, nein, so habe ich das nicht gemeint
+====
+
+=== Benennt die Emotionen
+
+[quote]
+Du bist total wütend, oder?
+
+[NOTE.speaker]
+====
+Er versteht mich!
+====
+
+=== !
+
+image::scales.jpg[background, size=contain]
+
+[NOTE.speaker]
+====
+Die Psyche ist wie eine Waagschale, die positive mit negativen Erfahrungen vergleicht.
+Negative sind ungefähr 5x so schwer wie positive
+
+Man vergleiche das mit dem Feedback Sandwich.
+====
+
+=== Chance auf gemeinsame Lösungen
+
+[NOTE.speaker]
+====
+Ihr versteht, was euer gegenüber will.
+Er ist euch gegüber in positiver Stimmung.
+Ihr wisst, was ihr eigentlich wollt (die Ziele).
+====
+
+=== !
+
+image::listen.jpg[background, size=contain]
+
+=== !
+
+image::difficult.jpg[background, size=contain]
+
+== Noch Zweifel ob das funktioniert?
+
+[quote, http://inews.co.uk/opinion/comment/i-deal-nasty-comments-online/]
+So – you say that so far I don’t see any reason why my mum didn’t abort me. Want to email some more so we can get to know each other?
+
+[NOTE.speaker]
+====
+Eine Frau bekommt übelsten Hasskommentar.
+Antwortet freundlich. Bedankt sich für das Feedback und fragt freundlich und interessiert nach Hintergründen.
+====
+
+=== !
+
+image::klan.png[background, size=contain]
+
+[NOTE.speaker]
+====
+Immer noch?
+Ein schwarzer Freundet sich mit Klansmen an.
+Er versucht sie NICHT zu überzeugen und tut es gerade deshalb.
+====
+
+== Aufgabe
+
+Lobt jemanden.
+
+=== Aufgabe
+
+Wenn euch etwas nicht gefällt, findet heraus was der Verursacher darüber denken.
+
+=== Aufgabe
+
+Versucht es mit Kindern
+
+=== !
+
+image::codinghorror.png[background, size=contain]
+
+[NOTE.speaker]
+Jeff Atwood schreibt darüber, wie er mit seinen Kindern spricht.
+
+=== !
+
+image::oatmeal.png[background, size=contain]
+
+
+[NOTE.speaker]
+The Oatmeal hat einen herrlichen cartoon, warum Argumente und Fakten nicht funktionieren
+
+
+== Resourcen
+
+++++
+<div class="reference"><a href="http://amzn.to/2xniDmq">7 Habits Of Highly Effective People <br> Stephen R Covey - http://amzn.to/2xniDmq</a>
+</div><div class="reference"><a href="http://amzn.to/2wzojgf">Das Corssen-Prinzip Jens Corssen - http://amzn.to/2wzojgf</a>
+</div><div class="reference"><a href="http://amzn.to/2x83XIH">An Astronaut's Guide to Life on Earth <br> Chris Hadfield - http://amzn.to/2x83XIH</a>
+</div><div class="reference"><a href="http://amzn.to/2wjgThz">Auf dem Kreuzzug ins Glück <br> Die Toten Hosen - http://amzn.to/2wjgThz</a>
+</div><div class="reference"><a href="https://www.youtube.com/watch?v=5J6jAC6XxAI">Tim Ferris http://bit.ly/timFerris</a>
+</div><div class="reference"><a href="http://amzn.to/2v0IUdI">Denken hilft zwar, nützt aber nichts <br> Dan Ariely - http://amzn.to/2v0IUdI</a>
+</div><div class="reference"><a href="http://amzn.to/2xmX31N">Thinking Fast and Slow <br> Daniel Kahneman - http://amzn.to/2xmX31N</a>
+</div>
+++++
+
+== Resource
+
+++++
+<div class="reference"><a href="http://amzn.to/2x7NGn3">Just Listen Mark Goulston - http://amzn.to/2x7NGn3</a>
+</div><div class="reference"><a href="http://amzn.to/2g0assW">Difficult Conversations Douglas Stone - http://amzn.to/2g0assW</a>
+</div><div class="reference"><a href="http://inews.co.uk/opinion/comment/i-deal-nasty-comments-online/">Frau begegnet Hasskomentaren mit freundlichem Nachfragen <br> bit.ly/hatecomments</a>
+</div><div class="reference"><a href="http://www.huffingtonpost.com/entry/black-man-daryl-davis-befriends-kkk-documentary-accidental-courtesy_us_585c250de4b0de3a08f495fc">Schwarzer freundet sich mit Klansmen an <br> http://bit.ly/befriendKKK</a>
+</div><div class="reference"><a href="https://blog.codinghorror.com/how-to-talk-to-human-beings/">How to talk to human beings <br> Jeff Atwood - http://bit.ly/talk2humans/</a>
+</div><div class="reference"><a href="http://theoatmeal.com/comics/believe">The Oatmeal http://theoatmeal.com/comics/believe</a>
+</div>
+++++
+
+include::self.ad[]
